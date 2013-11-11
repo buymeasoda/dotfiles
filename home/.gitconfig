@@ -1,0 +1,39 @@
+[core]
+	pager = less -FRSX
+	excludesfile = ~/.gitignore
+	editor = vim
+	quotepath = false
+[user]
+	name = Ian Hill
+	email = ianhill@buymeasoda.com
+[color]
+	ui = auto
+[alias]
+	st = status -sb
+	br = branch
+	ba = branch -a
+	co = checkout
+	ci = commit
+	ca = commit -a
+	lg = log --date=local
+	wd = diff --word-diff
+	amend = commit --amend
+	unstage = reset HEAD
+	glog = log --graph --pretty=format:\"%Cred%h%Creset — %s %Cblue%an%Creset %Cgreen(%cr)%Creset\"
+	lol = log --oneline --graph --decorate
+[push]
+	default = simple
+[difftool "Kaleidoscope"]
+	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+[difftool]
+	prompt = false
+[diff]
+	tool = Kaleidoscope
+[mergetool]
+	keepBackup = true
+	prompt = false
+[mergetool "Kaleidoscope"]
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+	trustExitCode = true
+[merge]
+	tool = Kaleidoscope
