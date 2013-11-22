@@ -190,4 +190,4 @@ build_prompt() {
 
 PROMPT='
 %{%f%b%k%}$(build_prompt)
-%{%F{$KEY_COLOR}%}◼%{%f%} '
+%{%F{$KEY_COLOR}%}◼%{%k%}%{%f%} '
