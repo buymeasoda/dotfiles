@@ -362,11 +362,11 @@
 			<key>Ansi 7 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.53186100721359253</real>
+				<real>0.78683006763458252</real>
 				<key>Green Component</key>
-				<real>0.53209739923477173</real>
+				<real>0.78681671619415283</real>
 				<key>Red Component</key>
-				<real>0.53194814920425415</real>
+				<real>0.78684026002883911</real>
 			</dict>
 			<key>Ansi 8 Color</key>
 			<dict>
@@ -389,11 +389,11 @@
 			<key>Background Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.076020017266273499</real>
+				<real>0.065102763473987579</real>
 				<key>Green Component</key>
-				<real>0.076016485691070557</real>
+				<real>0.065099097788333893</real>
 				<key>Red Component</key>
-				<real>0.076022423803806305</real>
+				<real>0.065105140209197998</real>
 			</dict>
 			<key>Bold Color</key>
 			<dict>
@@ -2423,15 +2423,15 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSColorPanel</key>
-	<string>2038 1269 214 309 0 0 2560 1578 </string>
+	<string>1954 1259 214 309 0 0 2560 1578 </string>
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>995 474 445 270 0 0 1440 878 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>1469 752 924 485 0 0 2560 1578 </string>
+	<string>1117 1031 924 485 0 0 2560 1578 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>285 619 990 706 0 0 2560 1578 </string>
+	<string>475 124 990 706 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>1420 219 990 728 0 0 2560 1578 </string>
+	<string>345 172 990 706 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>1461 598 990 728 0 0 2560 1578 </string>
 	<key>New Bookmarks</key>
@@ -2527,11 +2527,11 @@
 			<key>Ansi 3 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.0</real>
+				<real>0.09294717013835907</real>
 				<key>Green Component</key>
-				<real>0.64705884456634521</real>
+				<real>0.60947579145431519</real>
 				<key>Red Component</key>
-				<real>0.76862746477127075</real>
+				<real>0.71668469905853271</real>
 			</dict>
 			<key>Ansi 4 Color</key>
 			<dict>
@@ -3977,11 +3977,11 @@
 			<key>Ansi 3 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.0</real>
+				<real>0.09294717013835907</real>
 				<key>Green Component</key>
-				<real>0.64705884456634521</real>
+				<real>0.60947579145431519</real>
 				<key>Red Component</key>
-				<real>0.76862746477127075</real>
+				<real>0.71668469905853271</real>
 			</dict>
 			<key>Ansi 4 Color</key>
 			<dict>
@@ -5401,7 +5401,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2013-11-20T17:22:31Z</date>
+	<date>2013-11-21T19:01:21Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
