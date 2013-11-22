@@ -23,10 +23,14 @@ set wrap                              " do not wrap text lines (wrap / nowrap)
 set cursorline                          " highlight current line
 
 " column marker
-" set colorcolumn=80                    " show column marker
-highlight ColorColumn ctermbg=233         " set colour of column marker
-" highlight column background from marker
-execute "set colorcolumn=" . join(range(81,335), ',')
+if exists('+colorcolumn')
+	" show column marker
+	" set colorcolumn=80
+	" set colour of column marker
+	highlight ColorColumn ctermbg=0
+	" highlight column background from marker
+	execute "set colorcolumn=" . join(range(81,335), ',')
+endif
 
 " status bar
 set showmode                            " show editing mode in status (-- INSERT --)
