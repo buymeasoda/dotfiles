@@ -102,42 +102,21 @@ prompt_git() {
 }
 
 prompt_hg() {
-  if $(hg id >/dev/null 2>&1); then
-    if [[ -n "$ADMIN_SCRIPTS" ]]; then
-      prompt_segment green black
-      echo -n "$(_dotfiles_scm_info)"
-    else
-      local rev status
-      if $(hg prompt >/dev/null 2>&1); then
-        if [[ $(hg prompt "{status|unknown}") = "?" ]]; then
-          # if files are not added
-          prompt_segment red white
-          st='±'
-        elif [[ -n $(hg prompt "{status|modified}") ]]; then
-          # if any modification
-          prompt_segment yellow black
-          st='±'
-        else
-          # if working copy is clean
-          prompt_segment green black
-        fi
-        echo -n $(hg prompt "☿ {rev}@{branch}") $st
-      else
-        st=""
-        rev=$(hg id -n 2>/dev/null | sed 's/[^-0-9]//g')
-        branch=$(hg id -b 2>/dev/null)
-        if `hg st | grep -Eq "^\?"`; then
-          prompt_segment red black
-          st='±'
-        elif `hg st | grep -Eq "^(M|A)"`; then
-          prompt_segment yellow black
-          st='±'
-        else
-          prompt_segment green black
-        fi
-        echo -n "☿ $rev@$branch" $st
-      fi
+  local hg_root hg_prompt
+  hg_root=$(hg root 2>/dev/null)
+  if [ $hg_root ]; then
+    hg_prompt='±'
+    # Bookmark
+    if [[ -f $hg_root/.hg/bookmarks.current ]]; then
+      hg_prompt+=' '$(cat "$hg_root/.hg/bookmarks.current")
     fi
+    # Clean / Dirty
+    if [ $(hg status 2> /dev/null | grep -Eq '^\s*[ACDIM!?L]' && echo $?) ]; then
+      prompt_segment yellow black
+    else
+      prompt_segment green black
+    fi
+    echo -n $hg_prompt
   fi
 }
 

@@ -1,3 +1,4 @@
+
 # Spin up a server
 function server() {
     local port="${1:-8000}"
@@ -5,10 +6,12 @@ function server() {
     python -m SimpleHTTPServer "$port"
 }
 
+# Show prompt colors
 function show_colors () {
     for code in {0..255}; do echo -e "\033[1;38;5;${code}m $code: Color code demonstration"; done
 }
 
+# Enter directory and list contents
 function cl() {
 	cd $1 && ls
 }
