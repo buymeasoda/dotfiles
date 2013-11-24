@@ -120,6 +120,15 @@ prompt_hg() {
   fi
 }
 
+prompt_hg_fast() {
+  local hg_prompt
+  hg_prompt=$(_dotfiles_scm_info)
+  if test -n "$hg_prompt"; then
+    prompt_segment green black
+    echo -n $hg_prompt
+  fi
+}
+
 # Dir: current working directory
 prompt_dir() {
   prompt_segment $KEY_COLOR black '%~'
@@ -146,7 +155,7 @@ build_prompt() {
   prompt_context
   prompt_dir
   prompt_git
-  prompt_hg
+  prompt_hg_fast
   prompt_end
 }
 
