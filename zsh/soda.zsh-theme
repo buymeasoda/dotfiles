@@ -103,30 +103,29 @@ prompt_git() {
 
 prompt_hg() {
   local hg_root hg_prompt
-  hg_root=$(hg root 2>/dev/null)
-  if [ $hg_root ]; then
-    hg_prompt='±'
-    # Bookmark
-    if [[ -f $hg_root/.hg/bookmarks.current ]]; then
-      hg_prompt+=' '$(cat "$hg_root/.hg/bookmarks.current")
-    fi
-    # Clean / Dirty
-    if [ $(hg status 2> /dev/null | grep -Eq '^\s*[ACDIM!?L]' && echo $?) ]; then
-      prompt_segment yellow black
-    else
+  # if [ -z _dotfiles_scm_info ]; then
+  #   hg_root=$(hg root 2>/dev/null)
+  #   if [ $hg_root ]; then
+  #     hg_prompt='±'
+  #     # Bookmark
+  #     if [[ -f $hg_root/.hg/bookmarks.current ]]; then
+  #       hg_prompt+=' '$(cat "$hg_root/.hg/bookmarks.current")
+  #     fi
+  #     # Clean / Dirty
+  #     if [ $(hg status 2> /dev/null | grep -Eq '^\s*[ACDIM!?L]' && echo $?) ]; then
+  #       prompt_segment yellow black
+  #     else
+  #       prompt_segment green black
+  #     fi
+  #     echo -n $hg_prompt
+  #   fi
+  # else
+    hg_prompt=$(_dotfiles_scm_info)
+    if test -n "$hg_prompt"; then
       prompt_segment green black
+      echo -n $hg_prompt
     fi
-    echo -n $hg_prompt
-  fi
-}
-
-prompt_hg_fast() {
-  local hg_prompt
-  hg_prompt=$(_dotfiles_scm_info)
-  if test -n "$hg_prompt"; then
-    prompt_segment green black
-    echo -n $hg_prompt
-  fi
+  # fi
 }
 
 # Dir: current working directory
@@ -155,7 +154,7 @@ build_prompt() {
   prompt_context
   prompt_dir
   prompt_git
-  prompt_hg_fast
+  # prompt_hg
   prompt_end
 }
 
