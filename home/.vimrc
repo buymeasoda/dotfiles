@@ -79,10 +79,12 @@ set nolist                              " hide tabs and EOL chars (use 'set list
 " set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_  " whitespace character settings
 
 " centralise backups, swapfiles and undo history
-set backupdir=~/.vim/backups
-set directory=~/.vim/swaps
+" use double // to avoid name collisions, which triggers vim to use the full path
+" eg. set backupdir=~/.vim/backups//
+set backupdir=~/.vim/backups/
+set directory=~/.vim/swaps/
 if exists("&undodir")
-    set undodir=~/.vim/undo
+    set undodir=~/.vim/undo/
 endif
 
 " other (?)
