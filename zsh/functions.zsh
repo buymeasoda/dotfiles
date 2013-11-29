@@ -15,3 +15,11 @@ function show_colors () {
 function cl() {
 	cd $1 && ls
 }
+
+# Make directories and enter last dir provided
+function mkcd() {
+    if [ -n "$1" ]; then
+        mkdir -p "$@";
+        cd "$_";
+    fi
+}
