@@ -19,7 +19,7 @@ set ttyfast                             " fase redraw for good connections
 " general
 set title                               " show the filename in the window titlebar     
 set number                              " show/hide line numbers
-set wrap                              " do not wrap text lines (wrap / nowrap)
+set wrap                                " do not wrap text lines (wrap / nowrap)
 set cursorline                          " highlight current line
 
 " column marker
@@ -77,6 +77,13 @@ set softtabstop=4                       " set virtual tab stop
 " whitespace
 set nolist                              " hide tabs and EOL chars (use 'set list' to show)
 " set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_  " whitespace character settings
+
+" centralise backups, swapfiles and undo history
+set backupdir=~/.vim/backups
+set directory=~/.vim/swaps
+if exists("&undodir")
+    set undodir=~/.vim/undo
+endif
 
 " other (?)
 " set relativenumber                    " show relative line numbers
