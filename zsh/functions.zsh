@@ -1,9 +1,16 @@
 
-# Spin up a server
+# Spin up a python server
 function server() {
     local port="${1:-8000}"
     sleep 1 && open "http://localhost:${port}/"
     python -m SimpleHTTPServer "$port"
+}
+
+# Spin up a PHP server
+function phpserver() {
+    local port="${1:-8000}"
+    sleep 1 && open "http://localhost:${port}/"
+    php -S localhost:"$port"
 }
 
 # Show prompt colors
