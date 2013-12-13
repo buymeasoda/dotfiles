@@ -20,5 +20,5 @@ alias sd="ssh dev"
 alias doc="open ~/Documents"
 
 # Configuration
-alias dot="sub ~/.dotfiles ~/.oh-my-zsh ~/.vim ~/.ssh/config ~/.gitconfig ~/.gitignore ~/.zshrc ~/.vimrc ~/.dotfiles/zsh/*"
+alias dot="sub ~/.dotfiles ~/.oh-my-zsh"
 alias doz="source ~/.zshrc"

@@ -20,7 +20,7 @@ function show_colors () {
 
 # Enter directory and list contents
 function cl() {
-	cd $1 && ls
+	cd $1 && l
 }
 
 # Make directories and enter last dir provided
