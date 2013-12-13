@@ -103,12 +103,10 @@ prompt_git() {
 
 prompt_hg() {
   local hg_prompt
-  if [[ ! -n $_dotfiles_scm_info ]]; then
-    hg_prompt=$(_dotfiles_scm_info)
-    if test -n "$hg_prompt"; then
-      prompt_segment green black
-      echo -n "± ${hg_prompt}"
-    fi
+  hg_prompt=$(_dotfiles_scm_info 2> /dev/null)
+  if test -n "$hg_prompt"; then
+    prompt_segment green black
+    echo -n "± ${hg_prompt}"
   fi
 }
 
