@@ -107,7 +107,7 @@ prompt_hg() {
     hg_prompt=$(_dotfiles_scm_info)
     if test -n "$hg_prompt"; then
       prompt_segment green black
-      echo -n $hg_prompt
+      echo -n "± ${hg_prompt}"
     fi
   fi
 }
