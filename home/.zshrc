@@ -9,7 +9,6 @@ ZSH_THEME="soda"
 
 # Custom settings
 ZSH_CUSTOM=~/.dotfiles/zsh
-# DEFAULT_USER="ianhill"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
