@@ -1,26 +1,29 @@
+" pathogen
+execute pathogen#infect()
+
+" bundles
+" autocmd vimenter * NERDTree           " auto-open nerd tree side bar
+
+" core
+set nocompatible                        " vim, not vi
+filetype plugin indent on           		" load filetype plugins and indent settings
+set ttyfast                             " fase redraw for good connections
+" let mapleader = ","                   " set leader key (default=\)
+
 " colour
 syntax on                               " enable syntax highlighting
 set t_Co=256                            " 256 colors in terminal
 colorscheme smyck                       " editor colour scheme
 
-" solarized
-" syntax enable
-" let g:solarized_termtrans = 1
-" set background=dark
-" colorscheme solarized
-
-" leader key
-" let mapleader = ","                   " default leader key '\'
-
-" configuration
-set nocompatible                        " vim, not vi
-set ttyfast                             " fase redraw for good connections
+" other schemes
+" candyman, blazer, tutticolori
 
 " general
 set title                               " show the filename in the window titlebar     
-set number                              " show/hide line numbers
-set wrap                                " do not wrap text lines (wrap / nowrap)
 set cursorline                          " highlight current line
+set number                              " show/hide line numbers
+" set relativenumber                    " show relative line numbers
+set wrap                                " do not wrap text lines (wrap / nowrap)
 
 " column marker
 if exists('+colorcolumn')
@@ -29,7 +32,7 @@ if exists('+colorcolumn')
 	" set colour of column marker
 	highlight ColorColumn ctermbg=0
 	" highlight column background from marker
-	execute "set colorcolumn=" . join(range(81,335), ',')
+  execute "set colorcolumn=" . join(range(81,335), ',')
 endif
 
 " status bar
@@ -55,24 +58,23 @@ set hlsearch                            " highlight when searching
 set ignorecase                          " ignore case when searching
 set smartcase                           " searches with capitals become case sensitive
 set gdefault                            " applies substitutions globally on lines
-set showmatch                           " flashes matching paren when one is typed
 nnoremap <leader><space> :noh<cr>       " clear last search (\<space>)
+" set showmatch                         " flashes matching paren when one is typed
 
 " editing
 set encoding=utf-8                      " default file encoding
-set cpoptions+=$                        " show $ symbol at end of change text range
+" set cpoptions+=$                      " show $ symbol at end of change text range
 
 " tabs and indenting
 set autoindent                          " auto indent while editing
 set expandtab                           " insert spaces not tabs
-set tabstop=4                           " width of tab stop rendering as spaces
-set shiftwidth=4                        " amount to indent with autoindent
-set softtabstop=4                       " set virtual tab stop
+set tabstop=2                           " width of tab stop rendering as spaces
+set shiftwidth=2                        " amount to indent with autoindent
+set softtabstop=2                       " set virtual tab stop
 " set smartindent                 		" try to be smart about indenting (C-style)
 " set shiftround                  		" always round indents to multiple of shiftwidth
 " set copyindent                  		" use existing indents for new indents
 " set preserveindent              		" save as much indent structure as possible
-" filetype plugin indent on       		" load filetype plugins and indent settings
 
 " whitespace
 set nolist                              " hide tabs and EOL chars (use 'set list' to show)
@@ -88,7 +90,6 @@ if exists("&undodir")
 endif
 
 " other (?)
-" set relativenumber                    " show relative line numbers
 " set clipboard=unnamedplus
 " set clipboard=unnamed                 " use OS clipboard by default
 " set hidden
