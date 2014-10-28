@@ -23,3 +23,5 @@ alias lap="open ~/Library/Application\ Support"
 # Configuration
 alias dot="sub ~/.dotfiles ~/.oh-my-zsh"
 alias doz="source ~/.zshrc"
+
+alias arc="~/Documents/Repos/arcanist/bin/arc"
