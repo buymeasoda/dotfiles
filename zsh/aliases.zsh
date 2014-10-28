@@ -18,6 +18,7 @@ alias tml='tmux ls'
 # General
 alias sd="ssh dev"
 alias doc="open ~/Documents"
+alias lap="open ~/Library/Application\ Support"
 
 # Configuration
 alias dot="sub ~/.dotfiles ~/.oh-my-zsh"
