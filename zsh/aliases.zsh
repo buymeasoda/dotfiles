@@ -21,5 +21,5 @@ alias doc="open ~/Documents"
 alias lap="open ~/Library/Application\ Support"
 
 # Configuration
-alias dot="sub ~/.dotfiles ~/.oh-my-zsh"
+alias dot="atom ~/.dotfiles ~/.oh-my-zsh"
 alias doz="source ~/.zshrc"
