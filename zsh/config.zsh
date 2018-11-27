@@ -1,4 +1,9 @@
 
+# Configuration
+
+export EDITOR=/usr/bin/vim
+export VISUAL=/usr/bin/vim
+
 # ZSH Overrides
 
 # Translate carriage return to newline
