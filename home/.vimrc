@@ -2,7 +2,6 @@
 set nocompatible                        " vim, not vi
 filetype plugin indent on           		" load filetype plugins and indent settings
 set ttyfast                             " fase redraw for good connections
-" let mapleader = ","                   " set leader key (default=\)
 
 " colour
 syntax on                               " enable syntax highlighting
@@ -13,14 +12,10 @@ colorscheme smyck                       " editor colour scheme
 set title                               " show the filename in the window titlebar     
 set cursorline                          " highlight current line
 set number                              " show/hide line numbers
-" set relativenumber                    " show relative line numbers
 set wrap                                " do not wrap text lines (wrap / nowrap)
 
 " column marker
 if exists('+colorcolumn')
-	" show column marker
-	" set colorcolumn=80
-	" set colour of column marker
 	highlight ColorColumn ctermbg=0
 	" highlight column background from marker
   execute "set colorcolumn=" . join(range(81,335), ',')
@@ -50,11 +45,9 @@ set ignorecase                          " ignore case when searching
 set smartcase                           " searches with capitals become case sensitive
 set gdefault                            " applies substitutions globally on lines
 nnoremap <leader><space> :noh<cr>       " clear last search (\<space>)
-" set showmatch                         " flashes matching paren when one is typed
 
 " editing
 set encoding=utf-8                      " default file encoding
-" set cpoptions+=$                      " show $ symbol at end of change text range
 
 " tabs and indenting
 set autoindent                          " auto indent while editing
@@ -62,47 +55,20 @@ set expandtab                           " insert spaces not tabs
 set tabstop=2                           " width of tab stop rendering as spaces
 set shiftwidth=2                        " amount to indent with autoindent
 set softtabstop=2                       " set virtual tab stop
-" set smartindent                 		" try to be smart about indenting (C-style)
-" set shiftround                  		" always round indents to multiple of shiftwidth
-" set copyindent                  		" use existing indents for new indents
-" set preserveindent              		" save as much indent structure as possible
 
 " whitespace
 set nolist                              " hide tabs and EOL chars (use 'set list' to show)
-" set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_  " whitespace character settings
 
 " centralise backups, swapfiles and undo history
-" use double // to avoid name collisions, which triggers vim to use the full path
-" eg. set backupdir=~/.vim/backups//
 set backupdir=~/.vim/backups/
 set directory=~/.vim/swaps/
 if exists("&undodir")
     set undodir=~/.vim/undo/
 endif
 
-" other (?)
-" set clipboard=unnamedplus
-" set clipboard=unnamed                 " use OS clipboard by default
-" set hidden
-" set visualbell
-" set backspace=indent,eol,start
-" set undofile
-
-" formatting
-" t - autowrap to textwidth
-" c - autowrap comments to textwidth
-" r - autoinsert comment leader with <Enter>
-" q - allow formatting of comments with :gq
-" l - don't format already long lines
-" set formatoptions=tcrql
-
 " remapping
 nnoremap <tab> %                        " switch to matching brace with <tab>
 vnoremap <tab> %                        " switch to matching brace with <tab>
-" nnoremap j gj                         " move down by screen line not file line
-" nnoremap k gk                         " move up by screen line not file line
-" nore ; :                              " map ; to : (save using <shift> + : for cmd
-" nore , ;                              " map , to ; (make ; available due to above)
 
 " remove training wheels (disable arrow keys)
 nnoremap <up> <nop>
@@ -118,16 +84,3 @@ inoremap <right> <nop>
 inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
-
-" Ctrl-j/k deletes blank line below/above, and Alt-j/k inserts.
-" nnoremap <silent><C-j> m`:silent +g/\m^\s*$/d<CR>``:noh<CR>
-" nnoremap <silent><C-k> m`:silent -g/\m^\s*$/d<CR>``:noh<CR>
-" nnoremap <silent><A-j> :set paste<CR>m`o<Esc>``:set nopaste<CR>
-" nnoremap <silent><A-k> :set paste<CR>m`O<Esc>``:set nopaste<CR>
-
-" make split windows easier to navigate
-" map <C-j> <C-w>j
-" map <C-k> <C-w>k
-" map <C-h> <C-w>h
-" map <C-l> <C-w>l
-" map <C-m> <C-w>_
