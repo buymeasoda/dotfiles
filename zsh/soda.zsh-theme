@@ -32,6 +32,13 @@
 ### Segment drawing
 # A few utility functions to make it easy and re-usable to draw segmented prompts
 
+# Key prompt color
+if [[ -n "$SSH_CLIENT" ]]; then
+  KEY_COLOR=blue
+else
+  KEY_COLOR=white
+fi
+
 CURRENT_BG='NONE'
 
 case ${SOLARIZED_THEME:-dark} in
@@ -197,9 +204,22 @@ prompt_hg() {
   fi
 }
 
+prompt_vcs() {
+  local scm_prompt
+  scm_prompt=$(_scm_prompt 2> /dev/null)
+  if test -n "$scm_prompt"; then
+    prompt_segment green $CURRENT_FG
+    echo -n "±${scm_prompt}"
+    return
+  fi
+  prompt_git
+  prompt_bzr
+  prompt_hg  
+}
+
 # Dir: current working directory
 prompt_dir() {
-  prompt_segment blue $CURRENT_FG '%~'
+  prompt_segment $KEY_COLOR $CURRENT_FG '%~'
 }
 
 # Virtualenv: current working virtualenv
@@ -231,10 +251,10 @@ build_prompt() {
   prompt_virtualenv
   prompt_context
   prompt_dir
-  prompt_git
-  prompt_bzr
-  prompt_hg
+  prompt_vcs
   prompt_end
 }
 
-PROMPT='%{%f%b%k%}$(build_prompt) '
+PROMPT='
+%{%f%b%k%}$(build_prompt)
+%{%F{$KEY_COLOR}%}◼%{%k%}%{%f%} '  
