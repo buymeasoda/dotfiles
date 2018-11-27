@@ -19,8 +19,11 @@ alias hga="hg amend"
 alias hgar="hg amend --rebase"
 alias hgsc="hg status --change ."
 
-# SSH
-alias sd="ssh dev"
+# xcode
+alias xcl="xcode-select -p"
+alias xcs="sudo xcode-select -s"
+alias simls="fbsimctl list"
+alias simclr="fbsimctl --delete-all create --all-missing-defaults"
 
 # Files
 alias doc="open ~/Documents"
