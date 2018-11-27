@@ -1,9 +1,3 @@
-" pathogen
-execute pathogen#infect()
-
-" bundles
-" autocmd vimenter * NERDTree           " auto-open nerd tree side bar
-
 " core
 set nocompatible                        " vim, not vi
 filetype plugin indent on           		" load filetype plugins and indent settings
@@ -14,9 +8,6 @@ set ttyfast                             " fase redraw for good connections
 syntax on                               " enable syntax highlighting
 set t_Co=256                            " 256 colors in terminal
 colorscheme smyck                       " editor colour scheme
-
-" other schemes
-" candyman, blazer, tutticolori
 
 " general
 set title                               " show the filename in the window titlebar     
