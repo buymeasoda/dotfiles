@@ -1,76 +1,131 @@
-" core
-set nocompatible                        " vim, not vi
-filetype plugin indent on           		" load filetype plugins and indent settings
-set ttyfast                             " fase redraw for good connections
+"
+" Core
+"
 
-" colour
-syntax on                               " enable syntax highlighting
-set t_Co=256                            " 256 colors in terminal
-colorscheme smyck                       " editor colour scheme
+" Use Vim not Vi
+set nocompatible
+" Load filetype plugins and set indent
+filetype plugin indent on
+" Fast redraw for good connections
+set ttyfast
+" Default file encoding
+set encoding=utf-8
 
-" general
-set title                               " show the filename in the window titlebar     
-set cursorline                          " highlight current line
-set number                              " show/hide line numbers
-set wrap                                " do not wrap text lines (wrap / nowrap)
+"
+" Colour
+"
 
-" column marker
+" Enable syntax highlighting
+syntax on
+" 256 colors in terminal
+set t_Co=256
+" Editor colour scheme
+colorscheme smyck
+
+"
+" Editor
+"
+
+" Show filename in titlebar
+set title
+" Highlight current line
+set cursorline
+" Show line numbers
+set number
+" Wrap text lines
+set wrap
+" Column marker
 if exists('+colorcolumn')
 	highlight ColorColumn ctermbg=0
-	" highlight column background from marker
   execute "set colorcolumn=" . join(range(81,335), ',')
 endif
 
-" status bar
-set showmode                            " show editing mode in status (-- INSERT --)
-set showcmd                             " show command status
-set ruler                               " show cursor position
-set cmdheight=1                         " set command line status bar height
-set laststatus=2                        " always show status line
-set wildmenu                            " display autocomplete for ':' commands with <tab> 
-set wildmode=list:longest,full          " use arrow keys, <tab> / <shift+tab> for wildmenu
+"
+" Status Bar
+"
 
-" navigation
-set scrolloff=3                         " lines spacing above/below cursor when scrolling
-set scrolljump=1                        " number of lines to jump when running scrolling
-set sidescroll=10                       " minumum columns to scroll horizontally
+" Show editing mode in status
+set showmode
+" Show command status
+set showcmd
+" Show cursor position
+set ruler
+" Set command line status bar height
+set cmdheight=1
+" Always show status line
+set laststatus=2
+" Display autocomplete for ':' commands with <tab>
+set wildmenu
+" Use arrow keys, <tab> / <shift+tab> for wildmenu
+set wildmode=list:longest,full
 
-" mouse
-set mouse=a                             " enable mouse support in console
+"
+" Navigation
+"
 
-" searching
-set incsearch                           " incremental search
-set hlsearch                            " highlight when searching
-set ignorecase                          " ignore case when searching
-set smartcase                           " searches with capitals become case sensitive
-set gdefault                            " applies substitutions globally on lines
-nnoremap <leader><space> :noh<cr>       " clear last search (\<space>)
+" Line spacing above/below cursor when scrolling
+set scrolloff=3
+" Number of lines to jump when scrolling
+set scrolljump=1
+" Minumum columns to scroll horizontally
+set sidescroll=10
+" Enable mouse support in console
+set mouse=a
 
-" editing
-set encoding=utf-8                      " default file encoding
+"
+" Searching
+"
 
-" tabs and indenting
-set autoindent                          " auto indent while editing
-set expandtab                           " insert spaces not tabs
-set tabstop=2                           " width of tab stop rendering as spaces
-set shiftwidth=2                        " amount to indent with autoindent
-set softtabstop=2                       " set virtual tab stop
+" Incremental search
+set incsearch
+" Highlight when searching
+set hlsearch
+" Ignore case when searching
+set ignorecase
+" Searches with capitals become case sensitive
+set smartcase
+" Apply substitutions globally on lines
+set gdefault
+" Clear last search (\<space>)
+nnoremap <leader><space> :noh<cr>
 
-" whitespace
-set nolist                              " hide tabs and EOL chars (use 'set list' to show)
+"
+" Tabs and indenting
+"
 
-" centralise backups, swapfiles and undo history
+" Auto indent while editing
+set autoindent
+" Insert spaces not tabs
+set expandtab
+" Width of tab stop rendering as spaces
+set tabstop=2
+" Amount to indent with autoindent
+set shiftwidth=2
+" Set virtual tab stop
+set softtabstop=2
+" Hide tabs and EOL chars
+set nolist
+
+"
+" Directories
+"
+
+" Centralise backups, swapfiles and undo history
 set backupdir=~/.vim/backups/
 set directory=~/.vim/swaps/
 if exists("&undodir")
     set undodir=~/.vim/undo/
 endif
 
-" remapping
-nnoremap <tab> %                        " switch to matching brace with <tab>
-vnoremap <tab> %                        " switch to matching brace with <tab>
+"
+" Remapping
+"
 
-" remove training wheels (disable arrow keys)
+" Switch to matching brace with <tab>
+nnoremap <tab> %
+vnoremap <tab> %
+
+" Disable arrow keys
 nnoremap <up> <nop>
 nnoremap <down> <nop>
 nnoremap <left> <nop>
@@ -80,7 +135,7 @@ inoremap <down> <nop>
 inoremap <left> <nop>
 inoremap <right> <nop>
 
-" disable help menu (and remap to escape)
+" Disable help menu (and remap to escape)
 inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
