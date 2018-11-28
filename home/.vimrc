@@ -36,7 +36,7 @@ set number
 set wrap
 " Column marker
 if exists('+colorcolumn')
-	highlight ColorColumn ctermbg=0
+  highlight ColorColumn ctermbg=0
   execute "set colorcolumn=" . join(range(81,335), ',')
 endif
 
