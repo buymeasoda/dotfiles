@@ -205,6 +205,10 @@ prompt_hg() {
 }
 
 prompt_vcs() {
+  if (( $+commands[git] )) && $(git rev-parse --is-inside-work-tree > /dev/null 2>&1); then
+    prompt_git
+    return
+  fi
   local scm_prompt
   scm_prompt=$(_scm_prompt 2> /dev/null)
   if test -n "$scm_prompt"; then
@@ -212,7 +216,6 @@ prompt_vcs() {
     echo -n "±${scm_prompt}"
     return
   fi
-  prompt_git
   prompt_bzr
   prompt_hg  
 }
