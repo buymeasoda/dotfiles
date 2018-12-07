@@ -2,6 +2,9 @@
 alias dot="code ~/.dotfiles"
 alias doz="source ~/.zshrc"
 
+# Homebrew
+alias brewery='brew update && brew upgrade && brew cleanup'
+
 # Find files by name
 alias fn="find . -name"
 
