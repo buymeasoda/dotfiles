@@ -2,6 +2,9 @@
 export EDITOR=/usr/bin/vim
 export VISUAL=/usr/bin/vim
 
+# Path
+export PATH=/usr/local/opt/mysql@5.7/bin:$PATH
+
 # ZSH Overrides
 
 # Translate carriage return to newline
