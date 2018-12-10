@@ -2,6 +2,9 @@
 alias dot="code ~/.dotfiles"
 alias doz="source ~/.zshrc"
 
+# RefDocs
+alias ref="code ~/refdocs"
+
 # Homebrew
 alias brewery='brew update && brew upgrade && brew cleanup'
 
