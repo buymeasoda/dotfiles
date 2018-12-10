@@ -13,7 +13,7 @@ function phpserver() {
 }
 
 # Show prompt colors
-function show_colors () {
+function show_colors() {
   for code in {0..255}; do echo -e "\033[1;38;5;${code}m $code: Color code demonstration"; done
 }
 
