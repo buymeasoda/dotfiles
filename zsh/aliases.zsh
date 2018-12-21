@@ -28,6 +28,10 @@ alias hga="hg amend"
 alias hgar="hg amend --rebase"
 alias hgsc="hg status --change ."
 
+# npm
+alias npml="npm list --depth=0"
+alias npmlg="npm list --global --depth=0"
+
 # Xcode
 alias xcl="xcode-select -p"
 alias xcs="sudo xcode-select -s"
