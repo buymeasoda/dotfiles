@@ -18,6 +18,7 @@ brew install git
 brew install git-lfs
 
 # Tools
+brew install rsync
 brew install watchman
 brew install wget
 
