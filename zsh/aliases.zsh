@@ -14,6 +14,10 @@ alias brewery="brew update && brew upgrade && brew cleanup"
 # Find files by name
 alias fn="find . -name"
 
+# Backup files syncing destination with source (archive stores removed files)
+alias backup-sync="rsync -avhP --stats --delete" # <source> <destiation>
+alias backup-archive="backup-sync --backup --backup-dir=\"backup_$(date +\%Y-\%m-\%d)\"" # <source> <destination>
+
 # Flush Directory Service cache
 alias flush="dscacheutil -flushcache"
 
