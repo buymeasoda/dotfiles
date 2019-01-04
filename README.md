@@ -13,7 +13,7 @@ Buymeasoda dotfiles and terminal configuration setup.
 - Install homebrew and core formula
 
 ```
-source ~/.dotfiles/setup/homebrew/install.sh
+source ~/.dotfiles/setup/homebrew/homebrew.sh
 ```
 
 ### Terminal
