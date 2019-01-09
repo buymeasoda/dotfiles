@@ -103,7 +103,10 @@ function _prompt_vcs
   if type -q git; and command git rev-parse --is-inside-work-tree > /dev/null 2>&1
     _prompt_git
   else if test -n "$_scm_prompt"
-    _prompt_segment black green "± "(bash -c "$_scm_prompt")
+    set -l scm_info (bash -c "$_scm_prompt")
+    if test -n "$scm_info"
+      _prompt_segment black green "± $scm_info"
+    end
   else if type -q hg; and command hg id > /dev/null 2>&1
     _prompt_hg
   end
