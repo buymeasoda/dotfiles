@@ -59,20 +59,18 @@ function _prompt_dir
 end
 
 function _prompt_git
-  if type -q git; and command git rev-parse --is-inside-work-tree > /dev/null 2>&1
-    set -l branch_name (command git symbolic-ref HEAD 2> /dev/null)
-    set -l branch_info
-    if [ $status -eq 0 ]
-      set branch_info (echo $branch_name | sed  "s-refs/heads/-$branch_symbol -")
-    else
-      set branch_info "➦ "(command git show-ref --head -s --abbrev | head -n1 2> /dev/null)
-    end
-    set -l dirty (_prompt_git_dirty)
-    if [ "$dirty" != "" ]
-      _prompt_segment black yellow "$branch_info $dirty"
-    else
-      _prompt_segment black green $branch_info
-    end
+  set -l branch_name (command git symbolic-ref HEAD 2> /dev/null)
+  set -l branch_info
+  if [ $status -eq 0 ]
+    set branch_info (echo $branch_name | sed  "s-refs/heads/-$branch_symbol -")
+  else
+    set branch_info "➦ "(command git show-ref --head -s --abbrev | head -n1 2> /dev/null)
+  end
+  set -l dirty (_prompt_git_dirty)
+  if [ "$dirty" != "" ]
+    _prompt_segment black yellow "$branch_info $dirty"
+  else
+    _prompt_segment black green $branch_info
   end
 end
 
@@ -84,15 +82,13 @@ function _prompt_git_dirty
 end
 
 function _prompt_hg
-  if type -q hg; and command hg id > /dev/null 2>&1
-    set -l branch_name (command hg id -b)
-    set -l branch_info "$branch_symbol $branch_name"
-    set -l dirty (_prompt_hg_dirty)
-    if [ "$dirty" != "" ]
-      _prompt_segment black yellow "$branch_info $dirty"
-    else
-      _prompt_segment black green $branch_info
-    end
+  set -l branch_name (command hg id -b)
+  set -l branch_info "$branch_symbol $branch_name"
+  set -l dirty (_prompt_hg_dirty)
+  if [ "$dirty" != "" ]
+    _prompt_segment black yellow "$branch_info $dirty"
+  else
+    _prompt_segment black green $branch_info
   end
 end
 
@@ -103,13 +99,22 @@ function _prompt_hg_dirty
   end
 end
 
+function _prompt_vcs
+  if type -q git; and command git rev-parse --is-inside-work-tree > /dev/null 2>&1
+    _prompt_git
+  else if test -n "$_scm_prompt"
+    _prompt_segment black green "± "(bash -c "$_scm_prompt")
+  else if type -q hg; and command hg id > /dev/null 2>&1
+    _prompt_hg
+  end
+end
+
 function fish_prompt
   set -g RETVAL $status
   _prompt_start
   _prompt_status
   _prompt_user_host
   _prompt_dir
-  _prompt_git
-  _prompt_hg
+  _prompt_vcs
   _prompt_end
 end
