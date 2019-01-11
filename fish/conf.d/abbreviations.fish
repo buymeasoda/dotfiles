@@ -14,6 +14,9 @@ abbr -ag fn 'find . -name'
 # Flush DNS cache
 abbr -ag flush 'dscacheutil -flushcache'
 
+# Web Tools
+abbr -ag bs 'browser-sync start --server --watch'
+
 # Mercurial
 abbr -ag hgr 'hg revert'
 abbr -ag hga 'hg amend'
