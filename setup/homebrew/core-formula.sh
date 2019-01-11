@@ -7,6 +7,7 @@ brew update
 brew upgrade
 
 # Shell
+brew install fish
 brew install zsh
 
 # Environments
@@ -30,6 +31,7 @@ brew install ffmpeg
 brew install pstree
 brew install rename
 brew install tree
+brew install yarn
 brew install youtube-dl
 
 # Cleanup
