@@ -1,6 +1,6 @@
 # Configuration
 abbr -ag dot 'code ~/.dotfiles'
-abbr -ag doz 'source ~/.config/fish/config.fish'
+abbr -ag doz 'exec $SHELL'
 
 # RefDocs
 abbr -ag ref 'code ~/refdocs'
