@@ -1,7 +1,7 @@
 # General
 set -x EDITOR /usr/bin/vim
 set -x VISUAL /usr/bin/vim
-set -x LSCOLORS Gxfxcxdxbxegedabagacad
+set -x LSCOLORS exfxcxdxbxegedabagacad
 
 # Path
 set -x PATH /usr/local/opt/mysql@5.7/bin $PATH
