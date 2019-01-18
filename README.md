@@ -13,13 +13,17 @@ Buymeasoda dotfiles and terminal configuration setup.
 - Install homebrew and core formula
 
 ```
-source ~/.dotfiles/setup/homebrew/homebrew.sh
+source ~/.dotfiles/setup/homebrew.sh
 ```
+
+### Shell
+
+- Set default shell to [Fish](https://fishshell.com/)
+- Symlink Fish dotfiles config `~/.dotfiles/fish` to `~/.config/fish`
 
 ### Terminal
 
-- Set default shell to [Zsh](http://zsh.sourceforge.net/) and install [Oh My Zsh](https://ohmyz.sh/)
-- Set [iTerm](https://www.iterm2.com/) preferences to use `~/.dotfiles/prefs`
+- Install [iTerm](https://www.iterm2.com/) and configure settings folder to use `~/.dotfiles/prefs`
 - Add required [powerline fonts](https://github.com/powerline/fonts) to system via FontBook
 
 ### Home Directory
