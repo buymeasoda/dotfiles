@@ -1,3 +1,4 @@
+# Fish
 set -g fish_color_autosuggestion black
 set -g fish_color_cancel normal
 set -g fish_color_command brblack
@@ -24,3 +25,14 @@ set -g fish_pager_color_completion normal
 set -g fish_pager_color_description yellow
 set -g fish_pager_color_prefix white --bold --underline
 set -g fish_pager_color_progress brwhite --background cyan
+
+# Man Pages
+set -l end (printf "\e[0m")
+set -x LESS_TERMCAP_mb (set_color red)
+set -x LESS_TERMCAP_md (set_color -o blue)
+set -x LESS_TERMCAP_me $end
+set -x LESS_TERMCAP_so (set_color brblack)
+set -x LESS_TERMCAP_se $end
+set -x LESS_TERMCAP_us (set_color -u magenta)
+set -x LESS_TERMCAP_ue $end
+set -x LESS '-R -s'
