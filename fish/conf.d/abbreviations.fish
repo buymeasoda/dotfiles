@@ -1,5 +1,8 @@
 # Configuration
 abbr -ag dot 'code ~/.dotfiles'
+abbr -ag fbi 'code /usr/local/share/fish'
+
+# Reload Shell
 abbr -ag doz 'exec $SHELL'
 
 # RefDocs
@@ -10,6 +13,10 @@ abbr -ag brewery 'brew update && brew upgrade && brew cleanup'
 
 # Find files
 abbr -ag fn 'find . -name'
+
+# History
+abbr -ag h 'history'
+abbr -ag hs 'history | grep -i'
 
 # Flush DNS cache
 abbr -ag flush 'dscacheutil -flushcache'
@@ -22,6 +29,11 @@ abbr -ag hgr 'hg revert'
 abbr -ag hga 'hg amend'
 abbr -ag hgar 'hg amend --rebase'
 abbr -ag hgsc 'hg status --change .'
+
+# tmux
+abbr -ag tml 'tmux ls'
+abbr -ag tmk 'tmux kill-session -t'
+abbr -ag tmks 'tmux kill-server'
 
 # npm
 abbr -ag npml 'npm list --depth=0'
