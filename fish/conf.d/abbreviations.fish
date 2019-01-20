@@ -3,7 +3,7 @@ abbr -ag dot 'code ~/.dotfiles'
 abbr -ag fbi 'code /usr/local/share/fish'
 
 # Reload Shell
-abbr -ag doz 'exec $SHELL'
+abbr -ag rl 'exec $SHELL'
 
 # RefDocs
 abbr -ag ref 'code ~/refdocs'
@@ -11,12 +11,19 @@ abbr -ag ref 'code ~/refdocs'
 # Homebrew
 abbr -ag brewery 'brew update && brew upgrade && brew cleanup'
 
+# Navigation
+abbr -ag pd 'prevd'
+abbr -ag nd 'nextd'
+
 # Find files
 abbr -ag fn 'find . -name'
 
 # History
 abbr -ag h 'history'
 abbr -ag hs 'history | grep -i'
+
+# Path
+abbr -ag pt 'printf "%s\n" $PATH'
 
 # Flush DNS cache
 abbr -ag flush 'dscacheutil -flushcache'
