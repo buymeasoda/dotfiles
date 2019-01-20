@@ -23,6 +23,7 @@ brew install git-lfs
 
 # Tools
 brew install rsync
+brew install tmux
 brew install watchman
 brew install wget
 
