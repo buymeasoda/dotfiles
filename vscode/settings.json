@@ -1,0 +1,70 @@
+{
+  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.renderSideBySide": true,
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.detectIndentation": false,
+  "editor.find.globalFindClipboard": true,
+  "editor.minimap.showSlider": "always",
+  "editor.scrollBeyondLastLine": false,
+  "editor.selectionHighlight": false,
+  "editor.tabSize": 2,
+  "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+  "explorer.confirmDragAndDrop": false,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "workbench.colorCustomizations": {
+    "editorBracketMatch.border": "#cbcbcb"
+  },
+  "workbench.colorTheme": "Bluloco Light",
+  "workbench.iconTheme": "file-icons-colourless",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.statusBar.feedback.visible": false,
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.fontFamily": "MesloLGMForPowerline-Regular",
+  "prettier.bracketSpacing": false,
+  "prettier.jsxBracketSameLine": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "[css]": {
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.formatOnSave": true
+  },
+  "[markdown]": {
+    "editor.formatOnSave": true
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["comment"],
+        "settings": {"fontStyle": "italic"}
+      }
+    ]
+  },
+  "emmet.variables": {
+    "charset": "utf-8"
+  },
+  "cSpell.ignoreRegExpList": [
+    "\\$[a-zA-Z_]+",
+    "\\['[a-zA-Z-_]+'\\]",
+    "=\"[a-zA-Z-_, ]+\""
+  ],
+  "cSpell.userWords": [
+    "buymeasoda",
+    "dotfiles",
+    "mkdir",
+    "pinboard",
+    "powerline",
+    "prefs",
+    "symlink",
+    "uncomment",
+    "unmount"
+  ]
+}
