@@ -551,7 +551,7 @@
 	<key>NSColorPickerSlidersDefaults</key>
 	<string>3</string>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/.dotfiles/prefs</string>
+	<string>~/Documents</string>
 	<key>NSNavLastUserSetHideExtensionButtonState</key>
 	<true/>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
@@ -607,13 +607,13 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>630 455 606 469 0 0 2560 1577 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>697 461 916 514 0 0 1680 1027 </string>
+	<string>697 379 796 486 0 0 1680 1027 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>127 443 592 584 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>411 216 990 730 0 0 1680 1027 </string>
+	<string>49 254 990 730 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>445 267 990 730 0 0 1680 1027 </string>
+	<string>633 251 990 730 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>1072 334 990 730 0 0 3440 1417 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
@@ -1814,7 +1814,7 @@
 			<key>Custom Command</key>
 			<string>Yes</string>
 			<key>Custom Directory</key>
-			<string>No</string>
+			<string>Recycle</string>
 			<key>Default Bookmark</key>
 			<string>No</string>
 			<key>Disable Printing</key>
@@ -3362,7 +3362,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>~/.dotfiles/prefs</string>
+	<string>~/.dotfiles/iterm</string>
 	<key>Print In Black And White</key>
 	<true/>
 	<key>PromptOnQuit</key>
@@ -3382,7 +3382,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-01-21T01:01:00Z</date>
+	<date>2019-01-22T02:06:59Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
