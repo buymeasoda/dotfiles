@@ -11,7 +11,6 @@ brew upgrade
 
 # Shell
 brew install fish
-brew install zsh
 
 # Environments
 brew install node
