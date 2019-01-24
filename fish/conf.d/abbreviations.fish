@@ -15,6 +15,10 @@ abbr -ag brewery 'brew update && brew upgrade && brew cleanup'
 abbr -ag pd 'prevd'
 abbr -ag nd 'nextd'
 
+# VS Code
+abbr -ag c 'code'
+abbr -ag c. 'code .'
+
 # Find files
 abbr -ag fn 'find . -name'
 
