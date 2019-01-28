@@ -1,20 +1,30 @@
 # Buymeasoda Dotfiles
 
-Buymeasoda dotfiles and terminal configuration setup.
+Buymeasoda dotfiles, terminal configuration and system setup.
+
+## Features
+
+- Homebrew formula and node packages
+- Fish prompt with powerline theme
 
 ## Installation
 
-- Git clone to `~/.dotfiles`
+- Install [homebrew](https://brew.sh/)
+- Clone [dotfiles](https://github.com/buymeasoda/dotfiles)
+- Run setup script
+
+```sh
+# Install homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# Clone dotfiles
+git clone git@github.com:buymeasoda/dotfiles.git ~/.dotfiles
+
+# Run setup
+source ~/.dotfiles/setup/setup.sh
+```
 
 ## Setup
-
-### Homebrew
-
-- Install homebrew and core formula
-
-```
-source ~/.dotfiles/setup/homebrew.sh
-```
 
 ### Shell
 
@@ -24,7 +34,6 @@ source ~/.dotfiles/setup/homebrew.sh
 ### Terminal
 
 - Install [iTerm](https://www.iterm2.com/) and configure settings folder to use `~/.dotfiles/prefs`
-- Add required [powerline fonts](https://github.com/powerline/fonts) to system via FontBook
 
 ### Home Directory
 
