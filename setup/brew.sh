@@ -1,5 +1,9 @@
 #!/bin/bash
 
+echo
+echo "Installing homebrew formula and linking dotfiles"
+echo
+
 # Install
 if [[ $(command -v brew) == "" ]]; then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -9,28 +13,14 @@ fi
 brew update
 brew upgrade
 
-# Shell
+# Formula
+brew install ffmpeg
 brew install fish
-
-# Environments
-brew install node
-brew install python
-
-# Version Control
 brew install git
 brew install git-lfs
-
-# Tools
-brew install rsync
-brew install tmux
-brew install watchman
-brew install wget
-
-# Server
+brew install mercurial
 brew install mysql@5.7
-
-# Utils
-brew install ffmpeg
+brew install node
 brew install pstree
 brew install rename
 brew install tree
