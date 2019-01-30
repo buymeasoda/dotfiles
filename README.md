@@ -2,10 +2,12 @@
 
 Buymeasoda dotfiles, terminal configuration and system setup.
 
-## Features
+## Overview
 
-- Homebrew formula and node packages
-- Fish prompt with powerline theme
+- Homebrew formula, app casks and global node packages
+- Mac apps and system preferences configuration
+- Fish prompt, dotfiles, powerline theme and iTerm configuration
+- VS Code editor settings and extensions installation
 
 ## Installation
 
@@ -24,17 +26,16 @@ git clone git@github.com:buymeasoda/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles/setup && source install.sh
 ```
 
-## Setup
+## Features
 
-### Shell
+The setup script will automatically install and configure the following:
 
-- Set default shell to [Fish](https://fishshell.com/)
-- Symlink Fish dotfiles config `~/.dotfiles/fish` to `~/.config/fish`
-
-### Terminal
-
-- Install [iTerm](https://www.iterm2.com/) and configure settings folder to use `~/.dotfiles/prefs`
-
-### Home Directory
-
-- Symlink or manually copy `~/.dotfiles/home` files to home `~/` directory
+- Command line tools
+- macOS applications
+- macOS system preferences
+- Fish shell
+- iTerm preferences
+- VS Code settings and extensions
+- Dotfiles configuration
+- Terminal configuration
+- Global node modules
