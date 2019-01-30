@@ -21,7 +21,7 @@ Buymeasoda dotfiles, terminal configuration and system setup.
 git clone git@github.com:buymeasoda/dotfiles.git ~/.dotfiles
 
 # Run setup
-source ~/.dotfiles/setup/setup.sh
+cd ~/.dotfiles/setup && source install.sh
 ```
 
 ## Setup
