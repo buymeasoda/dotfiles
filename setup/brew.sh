@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo
-echo "Installing homebrew formula and linking dotfiles"
+echo "Installing homebrew formula"
 echo
 
 # Install
