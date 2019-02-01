@@ -5,6 +5,9 @@ function snapshot --description 'Record all currently installed global packages 
     mkdir "$folder"
   end
 
+  echo "Snapshot Applications"
+  ls -1 /Applications/ > $folder/applications-list.txt
+
   echo "Snapshot Homebrew formula"
   brew leaves > $folder/brew-list.txt
 
