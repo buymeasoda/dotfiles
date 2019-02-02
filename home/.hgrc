@@ -1,2 +1,5 @@
 [ui]
 username = Ian Hill <ianhill@buymeasoda.com>
+
+[pager]
+pager = LESS='FRKX' less
