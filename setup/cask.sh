@@ -22,6 +22,7 @@ brew cask install iterm2
 brew cask install opera
 brew cask install postman
 brew cask install private-internet-access
+brew cask install qlmarkdown
 brew cask install sketch
 brew cask install soulver
 brew cask install sourcetree
