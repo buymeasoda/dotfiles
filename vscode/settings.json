@@ -88,5 +88,6 @@
     "uncomment",
     "unmount"
   ],
-  "breadcrumbs.enabled": false
+  "breadcrumbs.enabled": false,
+  "terminal.integrated.copyOnSelection": true
 }
