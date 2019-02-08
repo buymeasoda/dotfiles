@@ -7,6 +7,9 @@ echo
 # Fish
 ln -sf ~/.dotfiles/fish ~/.config/fish
 
+# Terminal
+ln -sf ~/.dotfiles/home/.hushlogin ~/.hushlogin
+
 # Git
 ln -sf ~/.dotfiles/home/.gitconfig ~/.gitconfig
 ln -sf ~/.dotfiles/home/.gitignore ~/.gitignore
