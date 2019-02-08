@@ -3,3 +3,7 @@ username = Ian Hill <ianhill@buymeasoda.com>
 
 [pager]
 pager = LESS='FRKX' less
+
+[color]
+diff.deleted = red
+diff.inserted = green

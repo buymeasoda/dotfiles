@@ -36,6 +36,8 @@ abbr -ag flush 'dscacheutil -flushcache'
 abbr -ag bs 'browser-sync start --server --watch'
 
 # Mercurial
+abbr -ag hgs 'hg status'
+abbr -ag hgd 'hg diff'
 abbr -ag hgr 'hg revert'
 abbr -ag hga 'hg amend'
 abbr -ag hgar 'hg amend --rebase'
