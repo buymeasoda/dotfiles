@@ -6,3 +6,6 @@ echo
 
 # iTerm
 open /Applications/iTerm.app/
+
+# Terminal
+killall Terminal

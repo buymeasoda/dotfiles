@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo
-echo "Installing VS Code extensions"
+echo "Configuring VS Code"
 echo
 
 # Extensions

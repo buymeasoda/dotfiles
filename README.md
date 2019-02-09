@@ -34,7 +34,7 @@ The setup script will automatically install and configure the following:
 - macOS applications
 - macOS system preferences
 - Fish shell
-- iTerm preferences
+- iTerm and Terminal preferences
 - VS Code settings and extensions
 - Dotfiles configuration
 - Terminal configuration
