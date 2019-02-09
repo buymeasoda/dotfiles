@@ -7,9 +7,6 @@ echo
 # Fish
 ln -sf ~/.dotfiles/fish ~/.config/fish
 
-# Terminal
-ln -sf ~/.dotfiles/home/.hushlogin ~/.hushlogin
-
 # Git
 ln -sf ~/.dotfiles/home/.gitconfig ~/.gitconfig
 ln -sf ~/.dotfiles/home/.gitignore ~/.gitignore
@@ -25,7 +22,3 @@ ln -sf ~/.dotfiles/home/.vimrc ~/.vimrc
 ln -sf ~/.dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
 ln -sf ~/.dotfiles/vscode/snippets/ ~/Library/Application\ Support/Code/User/snippets
 ln -sf ~/.dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
-
-# iTerm
-defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/.dotfiles/iterm"
-defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
