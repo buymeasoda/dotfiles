@@ -14,3 +14,5 @@ fi
 sudo sh -c "echo $(brew --prefix)/bin/fish >> /etc/shells"
 chsh -s $(brew --prefix)/bin/fish
 
+# Config
+ln -sf ~/.dotfiles/fish ~/.config/fish
