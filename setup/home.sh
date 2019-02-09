@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo
-echo "Linking dotfiles, settings and preferences"
+echo "Linking home directory dot files"
 echo
 
 # Git

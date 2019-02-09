@@ -11,6 +11,6 @@ source npm.sh
 source macos.sh
 source vscode.sh
 source fish.sh
-source link.sh
+source home.sh
 source terminal.sh
 source done.sh
