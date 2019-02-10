@@ -597,7 +597,7 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
-	<string>1137 678 445 77 0 0 1680 1027 </string>
+	<string>1137 544 445 77 0 0 1680 1027 </string>
 	<key>NSWindow Frame Preferences</key>
 	<string>260 1113 606 456 0 0 2560 1577 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
@@ -607,11 +607,11 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>630 455 606 469 0 0 2560 1577 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>2281 662 918 512 0 0 3440 1417 </string>
+	<string>842 358 796 486 0 0 1680 1027 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>127 443 592 584 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>2484 243 990 730 0 0 3440 1417 </string>
+	<string>663 170 990 730 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>2320 670 990 730 0 0 3440 1417 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -3364,7 +3364,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>~/.dotfiles/iterm</string>
+	<string>~/.dotfiles/terminal</string>
 	<key>Print In Black And White</key>
 	<true/>
 	<key>PromptOnQuit</key>
@@ -3384,7 +3384,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-02-05T21:17:07Z</date>
+	<date>2019-02-09T23:56:44Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
