@@ -4,8 +4,9 @@ echo
 echo "Linking home directory dot files"
 echo
 
-# Editor Config
+# Editor
 ln -sf ~/.dotfiles/home/.editorconfig ~/.editorconfig
+ln -sf ~/.dotfiles/home/.prettierrc ~/.prettierrc
 
 # Git
 ln -sf ~/.dotfiles/home/.gitconfig ~/.gitconfig
