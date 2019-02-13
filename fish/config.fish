@@ -4,7 +4,7 @@ set -x VISUAL /usr/bin/vim
 set -x LSCOLORS exfxcxdxbxegedabagacad
 
 # Path
-set -x PATH /usr/local/opt/mysql@5.7/bin $PATH
+path /usr/local/opt/mysql@5.7/bin
 
 # Fish
 set -g fish_greeting
