@@ -551,7 +551,7 @@
 	<key>NSColorPickerSlidersDefaults</key>
 	<string>3</string>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Documents</string>
+	<string>~/.dotfiles/terminal</string>
 	<key>NSNavLastUserSetHideExtensionButtonState</key>
 	<true/>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
@@ -607,11 +607,11 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>630 455 606 469 0 0 2560 1577 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>1502 756 796 486 0 0 3440 1417 </string>
+	<string>153 965 928 394 0 0 3440 1417 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>127 443 592 584 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>2344 563 990 730 0 0 3440 1417 </string>
+	<string>2323 546 990 730 0 0 3440 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>2320 670 990 730 0 0 3440 1417 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -664,13 +664,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.27402862906455994</real>
+				<real>0.62692533247172832</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.94079440832138062</real>
+				<real>0.8028564453125</real>
 				<key>Red Component</key>
-				<real>0.80627995729446411</real>
+				<real>0.67453022182864419</real>
 			</dict>
 			<key>Ansi 11 Color</key>
 			<dict>
@@ -833,13 +833,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.55855804681777954</real>
+				<real>0.65827327477745712</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.59167200326919556</real>
+				<real>0.65827327477745712</real>
 				<key>Red Component</key>
-				<real>0.8756982684135437</real>
+				<real>0.8610382080078125</real>
 			</dict>
 			<key>Automatically Log</key>
 			<false/>
@@ -3384,7 +3384,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-02-11T22:47:10Z</date>
+	<date>2019-02-12T22:47:11Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
