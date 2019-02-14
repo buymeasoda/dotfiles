@@ -4,6 +4,11 @@ function update --description 'Update installed global packages and shell helper
   brew upgrade
   brew cleanup
 
+  if test (npm outdated -g npm | wc -l) -ne 0
+    echo "Updating npm"
+    npm install -g npm
+  end
+
   echo "Updating npm global packages"
   npm update -g
 
