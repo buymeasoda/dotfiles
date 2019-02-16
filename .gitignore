@@ -1,0 +1,11 @@
+# Snapshot
+snapshot/*
+!snapshot/.dir
+
+# Vim
+home/.vim/backups/*
+home/.vim/swaps/*
+home/.vim/undo/*
+!home/.vim/backups/.dir
+!home/.vim/swaps/.dir
+!home/.vim/undo/.dir
