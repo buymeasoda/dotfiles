@@ -23,6 +23,7 @@ brew install mysql@5.7
 brew install node
 brew install pstree
 brew install rename
+brew install rsync
 brew install tree
 brew install yarn
 brew install youtube-dl
