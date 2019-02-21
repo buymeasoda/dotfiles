@@ -35,6 +35,21 @@ abbr -ag flush 'dscacheutil -flushcache'
 # Web Tools
 abbr -ag bs 'browser-sync start --server --watch'
 
+# Git
+abbr -ag g 'git'
+abbr -ag gs 'git status'
+abbr -ag gl 'git log'
+abbr -ag glp 'git log -p'
+abbr -ag glg 'git log --graph'
+abbr -ag glo 'git log --oneline'
+abbr -ag gd 'git diff'
+abbr -ag gds 'git diff --staged'
+abbr -ag ga 'git amend'
+abbr -ag gc 'git ci -m'
+abbr -ag gr 'git co .'
+abbr -ag gg 'git pull'
+abbr -ag gp 'git push'
+
 # Mercurial
 abbr -ag hgs 'hg status'
 abbr -ag hgd 'hg diff'
