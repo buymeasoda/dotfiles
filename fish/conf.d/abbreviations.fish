@@ -19,8 +19,10 @@ abbr -ag nd 'nextd'
 abbr -ag c 'code'
 abbr -ag c. 'code .'
 
-# Find files
+# Find
 abbr -ag fn 'find . -name'
+abbr -ag fd 'find . -type d -name'
+abbr -ag ff 'find . -type f -name'
 
 # History
 abbr -ag h 'history'
