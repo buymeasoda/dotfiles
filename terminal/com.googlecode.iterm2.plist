@@ -607,11 +607,11 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>630 455 606 469 0 0 2560 1577 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>153 965 928 394 0 0 3440 1417 </string>
+	<string>630 626 928 394 0 0 1680 1027 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>127 443 592 584 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>2323 546 990 730 0 0 3440 1417 </string>
+	<string>0 297 990 730 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>2320 670 990 730 0 0 3440 1417 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -3384,7 +3384,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-02-12T22:47:11Z</date>
+	<date>2019-02-22T19:15:25Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -3413,10 +3413,10 @@
 	<integer>10</integer>
 	<key>ToolbeltTools</key>
 	<array>
-		<string>Profiles</string>
+		<string>Notes</string>
 		<string>Jobs</string>
 		<string>Paste History</string>
-		<string>Notes</string>
+		<string>Recent Directories</string>
 	</array>
 	<key>TripleClickSelectsFullWrappedLines</key>
 	<false/>
