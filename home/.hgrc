@@ -14,3 +14,6 @@ diff.inserted.unchanged = brightgreen
 diff.deleted = red
 diff.deleted.changed = red
 diff.deleted.unchanged = brightred
+
+[extensions]
+smartlog =
