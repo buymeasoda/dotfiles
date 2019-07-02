@@ -18,9 +18,9 @@ brew install ffmpeg
 brew install fish
 brew install git
 brew install git-lfs
-brew install mercurial
 brew install mysql@5.7
 brew install node
+brew install nvm
 brew install pstree
 brew install rename
 brew install rsync
