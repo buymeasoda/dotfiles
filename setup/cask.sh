@@ -19,6 +19,7 @@ brew cask install google-chrome
 brew cask install imageoptim
 brew cask install istat-menus
 brew cask install iterm2
+brew cask install ngrok
 brew cask install opera
 brew cask install postman
 brew cask install private-internet-access
