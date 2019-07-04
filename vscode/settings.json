@@ -39,7 +39,6 @@
   "workbench.colorTheme": "Bluloco Light",
   "workbench.iconTheme": "file-icons-colourless",
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.statusBar.feedback.visible": false,
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.fontFamily": "MesloLGM-RegularForPowerline",
   "prettier.bracketSpacing": false,
