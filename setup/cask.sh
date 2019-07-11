@@ -12,6 +12,7 @@ brew tap caskroom/fonts
 brew cask upgrade
 
 # Casks
+brew cask install adobe-acrobat-reader
 brew cask install android-file-transfer
 brew cask install firefox
 brew cask install google-backup-and-sync
