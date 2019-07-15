@@ -12,3 +12,6 @@ home/.vim/undo/*
 
 # Local
 *-local.fish
+
+# Work in progress
+wip/*
