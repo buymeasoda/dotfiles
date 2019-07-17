@@ -25,6 +25,7 @@ brew install pstree
 brew install rename
 brew install rsync
 brew install tree
+brew install watchman
 brew install yarn
 brew install youtube-dl
 
