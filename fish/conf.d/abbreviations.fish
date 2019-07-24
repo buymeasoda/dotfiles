@@ -2,6 +2,9 @@
 abbr -ag dot 'code ~/.dotfiles'
 abbr -ag fbi 'code /usr/local/share/fish'
 
+# Fish
+abbr -ag abs 'abbr --show | grep'
+
 # Reload Shell
 abbr -ag rl 'exec $SHELL'
 
