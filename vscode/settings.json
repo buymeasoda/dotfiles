@@ -10,8 +10,11 @@
   "editor.tabSize": 2,
   "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
   "explorer.confirmDragAndDrop": false,
-  "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.fontFamily": "MesloLGM-RegularForPowerline",
   "workbench.colorCustomizations": {
     "editorBracketMatch.border": "#cbcbcb",
     "terminal.ansiBlack": "#323334",
@@ -39,8 +42,6 @@
   "workbench.colorTheme": "Bluloco Light",
   "workbench.iconTheme": "file-icons-colourless",
   "workbench.startupEditor": "newUntitledFile",
-  "terminal.external.osxExec": "iTerm.app",
-  "terminal.integrated.fontFamily": "MesloLGM-RegularForPowerline",
   "prettier.bracketSpacing": false,
   "prettier.jsxBracketSameLine": true,
   "prettier.singleQuote": true,
@@ -76,6 +77,7 @@
     "\\['[a-zA-Z-_]+'\\]",
     "=\"[a-zA-Z-_, ]+\""
   ],
+  "cSpell.language": "en-GB",
   "cSpell.userWords": [
     "buymeasoda",
     "dotfiles",
@@ -86,7 +88,5 @@
     "symlink",
     "uncomment",
     "unmount"
-  ],
-  "breadcrumbs.enabled": false,
-  "terminal.integrated.copyOnSelection": true
+  ]
 }
