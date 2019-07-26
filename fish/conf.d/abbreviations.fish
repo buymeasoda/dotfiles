@@ -72,6 +72,11 @@ abbr -ag tmks 'tmux kill-server'
 abbr -ag npml 'npm list --depth=0'
 abbr -ag npmlg 'npm list --global --depth=0'
 
+# yarn
+
+abbr -ag yl 'yarn list --depth=0'
+abbr -ag ylg 'yarn global list --depth=0'
+
 # Xcode
 abbr -ag xcl 'xcode-select -p'
 abbr -ag xcs 'sudo xcode-select -s'
