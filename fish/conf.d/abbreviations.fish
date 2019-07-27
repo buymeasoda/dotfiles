@@ -22,6 +22,10 @@ abbr -ag nd 'nextd'
 abbr -ag c 'code'
 abbr -ag c. 'code .'
 
+# Soulver
+
+abbr -ag sl 'soulver'
+
 # Find
 abbr -ag fn 'find . -name'
 abbr -ag fd 'find . -type d -name'

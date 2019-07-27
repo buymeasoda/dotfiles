@@ -82,9 +82,11 @@
     "buymeasoda",
     "dotfiles",
     "mkdir",
+    "performant",
     "pinboard",
     "powerline",
     "prefs",
+    "refetch",
     "symlink",
     "uncomment",
     "unmount"
