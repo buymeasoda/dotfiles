@@ -66,6 +66,18 @@ function _prompt_git
   else
     set branch_info "➦ "(command git show-ref --head -s --abbrev | head -n1 2> /dev/null)
   end
+
+  # Dirty check is slow for large repos (set via global fish config or local git config)
+  # Global fish config: set -g fish_prompt_vcs_dirty_check false
+  # Local git config: git config --local user.fishpromptvcsdirtycheck false
+  set -l use_dirty_check (command git config --local user.fishpromptvcsdirtycheck 2> /dev/null)
+  if [ "$use_dirty_check" != true ]
+    if [ "$use_dirty_check" = false ]; or [ $fish_prompt_vcs_dirty_check = false ]
+      _prompt_segment black blue $branch_info
+      return
+    end
+  end
+
   set -l dirty (_prompt_git_dirty)
   if [ "$dirty" != "" ]
     _prompt_segment black yellow "$branch_info $dirty"
