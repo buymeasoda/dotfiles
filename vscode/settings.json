@@ -5,6 +5,7 @@
   "editor.detectIndentation": false,
   "editor.find.globalFindClipboard": true,
   "editor.minimap.showSlider": "always",
+  "editor.renderWhitespace": "selection",
   "editor.scrollBeyondLastLine": false,
   "editor.selectionHighlight": false,
   "editor.tabSize": 2,
