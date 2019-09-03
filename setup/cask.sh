@@ -7,12 +7,14 @@ echo
 # Tap
 brew tap caskroom/cask
 brew tap caskroom/fonts
+brew tap AdoptOpenJDK/openjdk
 
 # Update
 brew cask upgrade
 
 # Casks
 brew cask install adobe-acrobat-reader
+brew cask install adoptopenjdk8
 brew cask install android-file-transfer
 brew cask install firefox
 brew cask install google-backup-and-sync
