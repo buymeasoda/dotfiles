@@ -23,7 +23,6 @@ abbr -ag c 'code'
 abbr -ag c. 'code .'
 
 # Soulver
-
 abbr -ag sl 'soulver'
 
 # Find
@@ -77,7 +76,6 @@ abbr -ag npml 'npm list --depth=0'
 abbr -ag npmlg 'npm list --global --depth=0'
 
 # yarn
-
 abbr -ag yl 'yarn list --depth=0'
 abbr -ag ylg 'yarn global list --depth=0'
 

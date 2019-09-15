@@ -14,6 +14,7 @@ brew update
 brew upgrade
 
 # Formula
+brew install brotli
 brew install ffmpeg
 brew install fish
 brew install git
