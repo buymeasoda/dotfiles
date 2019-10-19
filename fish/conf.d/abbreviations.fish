@@ -92,3 +92,4 @@ abbr -ag notes 'code ~/Desktop/Notes'
 
 # Download youtube video (Usage: yt 'http://www.youtube.com/watch?v=abc123')
 abbr -ag yt 'youtube-dl -f best[ext=mp4]'
+abbr -ag yta 'youtube-dl -fx best --audio-format mp3'
