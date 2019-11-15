@@ -19,6 +19,7 @@ brew install ffmpeg
 brew install fish
 brew install git
 brew install git-lfs
+brew install jq
 brew install mysql@5.7
 brew install node
 brew install nvm

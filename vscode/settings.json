@@ -43,10 +43,6 @@
   "workbench.colorTheme": "Bluloco Light",
   "workbench.iconTheme": "file-icons-colourless",
   "workbench.startupEditor": "newUntitledFile",
-  "prettier.bracketSpacing": false,
-  "prettier.jsxBracketSameLine": true,
-  "prettier.singleQuote": true,
-  "prettier.trailingComma": "es5",
   "[css]": {
     "editor.formatOnSave": true
   },
@@ -81,6 +77,7 @@
   ],
   "cSpell.language": "en-GB",
   "cSpell.userWords": [
+    "Jira",
     "analytics",
     "apps",
     "artifact",
@@ -89,6 +86,8 @@
     "buymeasoda",
     "codemod",
     "codemods",
+    "deconstruct",
+    "deconstructed",
     "dotfiles",
     "leveraging",
     "mentoring",
@@ -97,11 +96,15 @@
     "pinboard",
     "powerline",
     "prefs",
+    "proactively",
     "refetch",
     "relatable",
     "symlink",
     "uncomment",
     "unmount",
-    "wayfinding"
-  ]
+    "wayfinding",
+    "workflow",
+    "workflows"
+  ],
+  "cSpell.diagnosticLevel": "Hint"
 }
