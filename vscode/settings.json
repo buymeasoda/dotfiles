@@ -87,6 +87,7 @@
     "codemod",
     "codemods",
     "componentry",
+    "composability",
     "debuggability",
     "deconstruct",
     "deconstructed",
@@ -96,6 +97,7 @@
     "leveraging",
     "mentoring",
     "mkdir",
+    "orchestrators",
     "performant",
     "pinboard",
     "platformisation",
@@ -113,5 +115,6 @@
     "workflow",
     "workflows"
   ],
-  "cSpell.diagnosticLevel": "Hint"
+  "cSpell.diagnosticLevel": "Hint",
+  "search.enableSearchEditorPreview": true
 }
