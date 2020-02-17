@@ -116,5 +116,6 @@
     "workflows"
   ],
   "cSpell.diagnosticLevel": "Hint",
-  "search.enableSearchEditorPreview": true
+  "search.enableSearchEditorPreview": true,
+  "window.zoomLevel": 0
 }
