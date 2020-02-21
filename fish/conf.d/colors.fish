@@ -10,6 +10,7 @@ set -g fish_color_error red
 set -g fish_color_escape cyan
 set -g fish_color_history_current normal
 set -g fish_color_host normal
+set -g fish_color_host_remote yellow
 set -g fish_color_match normal
 set -g fish_color_normal normal
 set -g fish_color_operator cyan
