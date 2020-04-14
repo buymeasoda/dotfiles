@@ -51,7 +51,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
     "editor.formatOnSave": true
@@ -88,6 +89,7 @@
     "codemods",
     "componentry",
     "composability",
+    "contrarian",
     "debuggability",
     "deconstruct",
     "deconstructed",
@@ -98,17 +100,20 @@
     "mentoring",
     "mkdir",
     "orchestrators",
+    "overspecify",
     "performant",
     "pinboard",
     "platformisation",
     "powerline",
     "prefs",
     "proactively",
+    "queryable",
     "refetch",
     "relatable",
     "repurposed",
     "repurposing",
     "scaffolded",
+    "startup",
     "symlink",
     "uncomment",
     "unmount",
@@ -119,5 +124,12 @@
   ],
   "cSpell.diagnosticLevel": "Hint",
   "search.enableSearchEditorPreview": true,
-  "window.zoomLevel": 0
+  "window.zoomLevel": 0,
+  "javascript.validate.enable": false,
+  "editor.minimap.enabled": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "jest.autoEnable": false,
+  "timeline.excludeSources": []
 }
