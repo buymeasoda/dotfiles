@@ -17,7 +17,12 @@
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.fontFamily": "MesloLGM-RegularForPowerline",
   "workbench.colorCustomizations": {
-    "editorBracketMatch.border": "#cbcbcb",
+    "[Bluloco Light]": {
+      "editorBracketMatch.border": "#b8b8b8",
+      "minimapSlider.background": "#00000012",
+      "minimapSlider.hoverBackground": "#0000001a",
+      "minimapSlider.activeBackground": "#00000026"
+    },
     "terminal.ansiBlack": "#323334",
     "terminal.ansiRed": "#da6a6a",
     "terminal.ansiGreen": "#63a14c",
@@ -129,7 +134,6 @@
     "workflows"
   ],
   "cSpell.diagnosticLevel": "Hint",
-  "search.enableSearchEditorPreview": true,
   "window.zoomLevel": 0,
   "javascript.validate.enable": false,
   "editor.minimap.enabled": true,
