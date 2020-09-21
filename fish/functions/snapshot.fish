@@ -12,7 +12,7 @@ function snapshot --description 'Record all currently installed global packages 
   brew leaves > $folder/brew-list.txt
 
   echo "Snapshot Homebrew casks"
-  brew cask list > $folder/cask-list.txt
+  brew list --cask > $folder/cask-list.txt
 
   echo "Snapshot npm global packages"
   npm list -g --depth=0 > $folder/npm-list.txt
