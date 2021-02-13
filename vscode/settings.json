@@ -121,6 +121,7 @@
     "prefs",
     "proactively",
     "queryable",
+    "referenceable",
     "refetch",
     "relatable",
     "repurposed",
@@ -153,5 +154,10 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "jest.autoEnable": false,
-  "timeline.excludeSources": []
+  "timeline.excludeSources": [],
+  "search.exclude": {
+    "**/__generated-mocks": true,
+    "**/build": true,
+    "**/bundles-report": true
+  }
 }
