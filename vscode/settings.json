@@ -45,8 +45,8 @@
     "terminalCursor.background": "#ffffff",
     "terminalCursor.foreground": "#a6a6a6"
   },
-  "workbench.colorTheme": "Bluloco Light",
-  "workbench.iconTheme": "file-icons-colourless",
+  "workbench.colorTheme": "Bluloco Dark",
+  "workbench.iconTheme": "file-icons",
   "workbench.startupEditor": "newUntitledFile",
   "[css]": {
     "editor.formatOnSave": true
