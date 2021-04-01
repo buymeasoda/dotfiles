@@ -33,6 +33,7 @@ abbr -ag ff 'find . -type f -name'
 # History
 abbr -ag h 'history'
 abbr -ag hs 'history | grep -i'
+abbr -ag hd 'history delete --contains'
 
 # Path
 abbr -ag pt 'printf "%s\n" $PATH'
