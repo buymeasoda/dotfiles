@@ -23,5 +23,5 @@ function snapshot --description 'Record all currently installed global packages 
   echo "Snapshot VS Code extensions"
   code --list-extensions > $folder/vscode-list.txt
 
-  echo "Done"
+  echo "Snapshot Done"
 end

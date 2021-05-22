@@ -4,6 +4,7 @@ function update --description 'Update installed global packages and shell helper
   brew upgrade
   brew cleanup
 
+  echo "Checking npm"
   if test (npm outdated -g npm | wc -l) -ne 0
     echo "Updating npm"
     npm install -g npm
@@ -15,12 +16,12 @@ function update --description 'Update installed global packages and shell helper
   echo "Updating Yarn global packages"
   yarn global upgrade
 
-  echo "Updating fish completions"
-  fish_update_completions
-
   echo "Recording packages snapshot"
   snapshot
 
   echo "Reloading Fish Shell"
   exec $SHELL
+
+  echo "Updating fish completions"
+  fish_update_completions
 end
