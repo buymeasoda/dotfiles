@@ -65,6 +65,14 @@
   "[markdown]": {
     "editor.formatOnSave": true
   },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -153,7 +161,7 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "jest.autoEnable": false,
+  "jest.autoRun": "off",
   "timeline.excludeSources": [],
   "search.exclude": {
     "**/__generated-mocks": true,
