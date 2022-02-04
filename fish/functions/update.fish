@@ -1,27 +1,42 @@
 function update --description 'Update installed global packages and shell helpers'
-  echo "Updating Homebrew"
+  _header "Updating Homebrew"
   brew update
   brew upgrade
   brew cleanup
 
-  echo "Checking npm"
+  _message "Checking npm"
   if test (npm outdated -g npm | wc -l) -ne 0
-    echo "Updating npm"
+    _header "Updating npm"
     npm install -g npm
   end
 
-  echo "Updating npm global packages"
+  _header "Updating npm global packages"
   npm update -g
 
-  echo "Updating Yarn global packages"
+  _header "Updating Yarn global packages"
   yarn global upgrade
 
-  echo "Recording packages snapshot"
+  _header "Recording packages snapshot"
   snapshot
 
-  echo "Reloading Fish Shell"
+  _header "Reloading Fish Shell"
   exec $SHELL
 
-  echo "Updating fish completions"
+  _header "Updating fish completions"
   fish_update_completions
+end
+
+function _header -a heading
+  set_color yellow
+  echo "----------------------------------------"
+  echo " 🚀 $heading"
+  echo "----------------------------------------"
+  set_color normal
+end
+
+function _message -a message
+  set_color purple
+  echo
+  echo " 🔍 $message"
+  set_color normal
 end
