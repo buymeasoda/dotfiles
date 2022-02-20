@@ -13,30 +13,31 @@ brew tap AdoptOpenJDK/openjdk
 brew cask upgrade
 
 # Casks
-brew cask install adobe-acrobat-reader
-brew cask install adoptopenjdk8
-brew cask install android-file-transfer
-brew cask install calibre
-brew cask install firefox
-brew cask install google-backup-and-sync
-brew cask install google-chrome
-brew cask install imageoptim
-brew cask install istat-menus
-brew cask install iterm2
-brew cask install ngrok
-brew cask install opera
-brew cask install postman
-brew cask install private-internet-access
-brew cask install qlmarkdown
-brew cask install sketch
-brew cask install soulver
-brew cask install sourcetree
-brew cask install the-unarchiver
-brew cask install transmission
-brew cask install transmit
-brew cask install visual-studio-code
-brew cask install vlc
-brew cask install xscope
+brew install --cask adobe-acrobat-reader
+brew install --cask adoptopenjdk8
+brew install --cask android-file-transfer
+brew install --cask android-studio
+brew install --cask calibre
+brew install --cask firefox
+brew install --cask google-backup-and-sync
+brew install --cask google-chrome
+brew install --cask imageoptim
+brew install --cask istat-menus
+brew install --cask iterm2
+brew install --cask ngrok
+brew install --cask opera
+brew install --cask postman
+brew install --cask private-internet-access
+brew install --cask qlmarkdown
+brew install --cask sketch
+brew install --cask soulver
+brew install --cask sourcetree
+brew install --cask the-unarchiver
+brew install --cask transmission
+brew install --cask transmit
+brew install --cask visual-studio-code
+brew install --cask vlc
+brew install --cask xscope
 
 # Fonts
-brew cask install font-meslo-for-powerline
+brew install --cask font-meslo-for-powerline
