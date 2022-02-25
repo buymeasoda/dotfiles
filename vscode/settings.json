@@ -45,7 +45,7 @@
     "terminalCursor.background": "#ffffff",
     "terminalCursor.foreground": "#a6a6a6"
   },
-  "workbench.colorTheme": "Bluloco Dark",
+  "workbench.colorTheme": "Dracula",
   "workbench.iconTheme": "file-icons",
   "workbench.startupEditor": "newUntitledFile",
   "[css]": {
@@ -77,7 +77,7 @@
     "textMateRules": [
       {
         "scope": ["comment"],
-        "settings": {"fontStyle": "italic"}
+        "settings": { "fontStyle": "italic" }
       }
     ]
   },
@@ -91,13 +91,13 @@
   ],
   "cSpell.language": "en-GB",
   "cSpell.userWords": [
-    "Atlassian",
     "admin",
     "analytics",
     "apps",
     "artifact",
     "artifacts",
     "assistive",
+    "Atlassian",
     "bonafide",
     "buymeasoda",
     "codemod",
@@ -167,5 +167,7 @@
     "**/__generated-mocks": true,
     "**/build": true,
     "**/bundles-report": true
-  }
+  },
+  "explorer.decorations.colors": false,
+  "workbench.editor.decorations.colors": false
 }
