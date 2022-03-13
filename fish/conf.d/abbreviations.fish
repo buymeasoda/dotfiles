@@ -43,6 +43,8 @@ abbr -ag flush 'dscacheutil -flushcache'
 
 # Web Tools
 abbr -ag bs 'browser-sync start --server --watch'
+abbr -ag cra 'npx create-react-app --template typescript'
+abbr -ag cna 'npx react-native init --template react-native-template-typescript'
 
 # Git
 abbr -ag g 'git'
