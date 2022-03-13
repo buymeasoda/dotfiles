@@ -3,6 +3,7 @@ snapshot/*
 !snapshot/.dir
 
 # Vim
+home/.vim/.netrwhist
 home/.vim/backups/*
 home/.vim/swaps/*
 home/.vim/undo/*
