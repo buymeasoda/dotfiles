@@ -11,7 +11,6 @@ code --install-extension mgmcdermott.vscode-language-babel
 code --install-extension esbenp.prettier-vscode
 code --install-extension file-icons.file-icons
 code --install-extension flowtype.flow-for-vscode
-code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 code --install-extension Orta.vscode-jest
 code --install-extension skyapps.fish-vscode
 code --install-extension sourcegraph.sourcegraph
