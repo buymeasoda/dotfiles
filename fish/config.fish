@@ -3,7 +3,10 @@ set -x EDITOR /usr/bin/vim
 set -x VISUAL /usr/bin/vim
 set -x LSCOLORS exfxcxdxbxegedabagacad
 
-# Path
+# Homebrew
+path /usr/local/sbin
+
+# MySQL
 path /usr/local/opt/mysql@5.7/bin
 
 # Fish
