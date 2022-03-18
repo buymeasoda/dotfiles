@@ -85,13 +85,10 @@ abbr -ag ylg 'yarn global list --depth=0'
 # Xcode
 abbr -ag xcl 'xcode-select -p'
 abbr -ag xcs 'sudo xcode-select -s'
-abbr -ag simls 'fbsimctl list'
-abbr -ag simclr 'fbsimctl --delete-all create --all-missing-defaults'
 
 # Files
 abbr -ag doc 'open ~/Documents'
 abbr -ag lap 'open ~/Library/Application\ Support'
-abbr -ag notes 'code ~/Desktop/Notes'
 
 # Download youtube video (Usage: yt 'http://www.youtube.com/watch?v=abc123')
 abbr -ag yt 'youtube-dl -f best[ext=mp4]'
