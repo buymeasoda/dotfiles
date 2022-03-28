@@ -75,11 +75,14 @@ abbr -ag tmk 'tmux kill-session -t'
 abbr -ag tmks 'tmux kill-server'
 
 # npm
-abbr -ag npml 'npm list --depth=0'
-abbr -ag npmlg 'npm list --global --depth=0'
+abbr -ag nll 'npm list --depth=0'
+abbr -ag nlg 'npm list --global --depth=0'
+abbr -ag nug 'npm update --global'
+abbr -ag nag 'npm add --global'
+abbr -ag nrg 'npm remove --global'
 
 # yarn
-abbr -ag yl 'yarn list --depth=0'
+abbr -ag yll 'yarn list --depth=0'
 abbr -ag ylg 'yarn global list --depth=0'
 
 # Xcode
