@@ -12,3 +12,4 @@ npm install -g http-server
 npm install -g jscodeshift
 npm install -g nodemon
 npm install -g prettier
+npm install -g sharp-cli

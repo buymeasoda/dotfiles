@@ -78,7 +78,7 @@ abbr -ag tmks 'tmux kill-server'
 abbr -ag nll 'npm list --depth=0'
 abbr -ag nlg 'npm list --global --depth=0'
 abbr -ag nug 'npm update --global'
-abbr -ag nag 'npm add --global'
+abbr -ag nig 'npm install --global'
 abbr -ag nrg 'npm remove --global'
 
 # yarn
