@@ -24,8 +24,13 @@ set -g fish_color_user brgreen
 set -g fish_color_valid_path normal
 set -g fish_pager_color_completion normal
 set -g fish_pager_color_description yellow
-set -g fish_pager_color_prefix white --bold --underline
-set -g fish_pager_color_progress brwhite --background cyan
+set -g fish_pager_color_prefix normal
+set -g fish_pager_color_progress brwhite
+set -g fish_pager_color_selected_completion white
+set -g fish_pager_color_selected_description bryellow
+set -g fish_pager_color_selected_prefix white
+set -g fish_pager_color_selected_progress brwhite --background black
+set -g fish_pager_color_selected_background --background black
 
 # Man Pages
 set -l end (printf "\e[0m")
