@@ -4,25 +4,40 @@
   "editor.copyWithSyntaxHighlighting": false,
   "editor.detectIndentation": false,
   "editor.find.globalFindClipboard": true,
+  "editor.fontFamily": "SFMono-Regular, Menlo, Monaco, 'Courier New', monospace",
+  "editor.minimap.enabled": true,
   "editor.minimap.showSlider": "always",
   "editor.renderWhitespace": "selection",
   "editor.scrollBeyondLastLine": false,
   "editor.selectionHighlight": false,
   "editor.tabSize": 2,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["comment"],
+        "settings": { "fontStyle": "italic" }
+      }
+    ]
+  },
   "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+  "emmet.variables": { "charset": "utf-8" },
   "explorer.confirmDragAndDrop": false,
+  "explorer.decorations.colors": false,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
+  "javascript.validate.enable": false,
+  "jest.autoRun": "off",
+  "search.exclude": {
+    "**/__generated-mocks": true,
+    "**/build": true,
+    "**/bundles-report": true
+  },
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.fontFamily": "MesloLGM-RegularForPowerline",
+  "timeline.excludeSources": [],
+  "window.zoomLevel": 0,
   "workbench.colorCustomizations": {
-    "[Bluloco Light]": {
-      "editorBracketMatch.border": "#b8b8b8",
-      "minimapSlider.background": "#00000012",
-      "minimapSlider.hoverBackground": "#0000001a",
-      "minimapSlider.activeBackground": "#00000026"
-    },
     "terminal.ansiBlack": "#323334",
     "terminal.ansiRed": "#da6a6a",
     "terminal.ansiGreen": "#63a14c",
@@ -46,10 +61,15 @@
     "terminalCursor.foreground": "#a6a6a6"
   },
   "workbench.colorTheme": "Dracula",
+  "workbench.editor.decorations.colors": false,
+  "workbench.editor.untitled.hint": "hidden",
   "workbench.iconTheme": "file-icons",
   "workbench.startupEditor": "newUntitledFile",
   "[css]": {
     "editor.formatOnSave": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
     "editor.formatOnSave": true,
@@ -73,17 +93,7 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": ["comment"],
-        "settings": { "fontStyle": "italic" }
-      }
-    ]
-  },
-  "emmet.variables": {
-    "charset": "utf-8"
-  },
+  "cSpell.diagnosticLevel": "Hint",
   "cSpell.ignoreRegExpList": [
     "\\$[a-zA-Z_]+",
     "\\['[a-zA-Z-_]+'\\]",
@@ -153,21 +163,5 @@
     "wireframe",
     "workflow",
     "workflows"
-  ],
-  "cSpell.diagnosticLevel": "Hint",
-  "window.zoomLevel": 0,
-  "javascript.validate.enable": false,
-  "editor.minimap.enabled": true,
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "jest.autoRun": "off",
-  "timeline.excludeSources": [],
-  "search.exclude": {
-    "**/__generated-mocks": true,
-    "**/build": true,
-    "**/bundles-report": true
-  },
-  "explorer.decorations.colors": false,
-  "workbench.editor.decorations.colors": false
+  ]
 }
