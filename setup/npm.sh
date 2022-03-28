@@ -6,12 +6,9 @@ echo
 
 # Install
 npm install -g browser-sync
-npm install -g eslint
-npm install -g gulp-cli
+npm install -g eas-cli
+npm install -g expo-cli
 npm install -g http-server
 npm install -g jscodeshift
-npm install -g lighthouse
 npm install -g nodemon
 npm install -g prettier
-npm install -g react-native-cli
-npm install -g typescript
