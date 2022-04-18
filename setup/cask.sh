@@ -13,13 +13,11 @@ brew install --cask adoptopenjdk/openjdk/adoptopenjdk11
 brew install --cask android-file-transfer
 brew install --cask android-studio
 brew install --cask calibre
-brew install --cask firefox
 brew install --cask google-chrome
 brew install --cask imageoptim
 brew install --cask istat-menus
 brew install --cask iterm2
 brew install --cask ngrok
-brew install --cask opera
 brew install --cask postman
 brew install --cask private-internet-access
 brew install --cask qlmarkdown
