@@ -41,7 +41,7 @@ abbr -ag pt 'printf "%s\n" $PATH'
 # Flush DNS cache
 abbr -ag flush 'dscacheutil -flushcache'
 
-# Web Tools
+# Web / App Tools
 abbr -ag bs 'browser-sync start --server --watch'
 abbr -ag cra 'npx create-react-app --template typescript'
 abbr -ag cna 'npx react-native init --template react-native-template-typescript'
