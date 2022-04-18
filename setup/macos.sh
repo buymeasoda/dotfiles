@@ -27,8 +27,5 @@ defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
 # Hot Corners
 defaults write com.apple.dock wvous-bl-corner -int 10 # (sleep display)
 
-# Touch Bar
-defaults write com.apple.touchbar.agent PresentationModeGlobal functionKeys
-
 # Refresh
 killall Dock Finder ControlStrip
