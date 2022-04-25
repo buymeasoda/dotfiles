@@ -17,7 +17,7 @@ Buymeasoda dotfiles, terminal configuration and system setup.
 
 ```sh
 # Install homebrew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Clone dotfiles
 git clone git@github.com:buymeasoda/dotfiles.git ~/.dotfiles
