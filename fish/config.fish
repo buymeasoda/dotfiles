@@ -4,10 +4,7 @@ set -x VISUAL /usr/bin/vim
 set -x LSCOLORS exfxcxdxbxegedabagacad
 
 # Homebrew
-path /usr/local/sbin
-
-# MySQL
-path /usr/local/opt/mysql@5.7/bin
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Fish
 set -g fish_greeting
