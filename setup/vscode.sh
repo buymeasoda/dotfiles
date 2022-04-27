@@ -17,7 +17,6 @@ code --install-extension Orta.vscode-jest
 code --install-extension skyapps.fish-vscode
 code --install-extension sourcegraph.sourcegraph
 code --install-extension streetsidesoftware.code-spell-checker
-code --install-extension vsmobile.vscode-react-native
 
 # Settings
 ln -sf ~/.dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
