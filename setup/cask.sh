@@ -21,7 +21,6 @@ brew install --cask ngrok
 brew install --cask postman
 brew install --cask private-internet-access
 brew install --cask qlmarkdown
-brew install --cask sketch
 brew install --cask soulver
 brew install --cask the-unarchiver
 brew install --cask transmission
