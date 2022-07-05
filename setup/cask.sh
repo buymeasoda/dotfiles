@@ -9,7 +9,7 @@ brew upgrade --cask
 
 # Casks
 brew install --cask adobe-acrobat-reader
-brew install --cask adoptopenjdk/openjdk/adoptopenjdk11
+brew install --cask homebrew/cask-versions/zulu11
 brew install --cask android-file-transfer
 brew install --cask android-studio
 brew install --cask calibre
