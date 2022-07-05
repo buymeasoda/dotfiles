@@ -24,7 +24,6 @@ brew install --cask qlmarkdown
 brew install --cask soulver
 brew install --cask the-unarchiver
 brew install --cask transmission
-brew install --cask transmit
 brew install --cask visual-studio-code
 brew install --cask vlc
 brew install --cask xscope
