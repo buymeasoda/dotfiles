@@ -162,6 +162,9 @@
     "wayfinding",
     "wireframe",
     "workflow",
-    "workflows"
-  ]
+    "workflows",
+    "worklet",
+    "worklets"
+  ],
+  "json.schemas": []
 }
