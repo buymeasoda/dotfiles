@@ -8,17 +8,13 @@ echo
 brew upgrade --cask
 
 # Casks
-brew install --cask adobe-acrobat-reader
 brew install --cask homebrew/cask-versions/zulu11
 brew install --cask android-file-transfer
 brew install --cask android-studio
-brew install --cask calibre
 brew install --cask google-chrome
 brew install --cask imageoptim
 brew install --cask istat-menus
 brew install --cask iterm2
-brew install --cask ngrok
-brew install --cask postman
 brew install --cask private-internet-access
 brew install --cask qlmarkdown
 brew install --cask soulver
