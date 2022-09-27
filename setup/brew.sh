@@ -14,12 +14,8 @@ brew update
 brew upgrade
 
 # Formula
-brew install brotli
-brew install ffmpeg
 brew install fish
 brew install git
-brew install git-lfs
-brew install jq
 brew install node
 brew install nvm
 brew install pstree
