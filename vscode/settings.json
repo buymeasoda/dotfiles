@@ -35,7 +35,6 @@
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.fontFamily": "MesloLGM-RegularForPowerline",
-  "timeline.excludeSources": [],
   "window.zoomLevel": 0,
   "workbench.colorCustomizations": {
     "terminal.ansiBlack": "#323334",
