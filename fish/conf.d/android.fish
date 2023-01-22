@@ -2,8 +2,8 @@
 set -x ANDROID_HOME $HOME/Library/Android/sdk
 
 # Paths
-path $ANDROID_HOME/emulator
-path $ANDROID_HOME/tools
-path $ANDROID_HOME/cmdline-tools/latest/bin
-path $ANDROID_HOME/tools/bin
-path $ANDROID_HOME/platform-tools
+setpath $ANDROID_HOME/emulator
+setpath $ANDROID_HOME/tools
+setpath $ANDROID_HOME/cmdline-tools/latest/bin
+setpath $ANDROID_HOME/tools/bin
+setpath $ANDROID_HOME/platform-tools
