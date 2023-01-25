@@ -15,12 +15,12 @@
     "textMateRules": [
       {
         "scope": ["comment"],
-        "settings": { "fontStyle": "italic" }
+        "settings": {"fontStyle": "italic"}
       }
     ]
   },
   "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
-  "emmet.variables": { "charset": "utf-8" },
+  "emmet.variables": {"charset": "utf-8"},
   "explorer.confirmDragAndDrop": false,
   "explorer.decorations.colors": false,
   "files.insertFinalNewline": true,
@@ -118,6 +118,7 @@
     "deconstruct",
     "deconstructed",
     "destructure",
+    "dialog",
     "dotfiles",
     "editability",
     "gnarly",
