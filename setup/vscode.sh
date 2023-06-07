@@ -6,7 +6,7 @@ echo
 
 # Extensions
 code --install-extension alefragnani.Bookmarks
-code --install-extension byCedric.vscode-expo
+code --install-extension expo.vscode-expo-tools
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension dracula-theme.theme-dracula
 code --install-extension esbenp.prettier-vscode
