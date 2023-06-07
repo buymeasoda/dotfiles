@@ -5,6 +5,7 @@
   "editor.detectIndentation": false,
   "editor.find.globalFindClipboard": true,
   "editor.fontFamily": "SFMono-Regular, Menlo, Monaco, 'Courier New', monospace",
+  "editor.inlineSuggest.enabled": true,
   "editor.minimap.enabled": true,
   "editor.minimap.showSlider": "always",
   "editor.renderWhitespace": "selection",
@@ -27,6 +28,7 @@
   "files.trimTrailingWhitespace": true,
   "javascript.validate.enable": false,
   "jest.autoRun": "off",
+  "json.schemas": [],
   "search.exclude": {
     "**/__generated-mocks": true,
     "**/build": true,
@@ -166,5 +168,12 @@
     "worklet",
     "worklets"
   ],
-  "json.schemas": []
+  "github.copilot.advanced": {},
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "yaml": false
+  }
 }
