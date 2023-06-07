@@ -14,6 +14,8 @@ brew update
 brew upgrade
 
 # Formula
+brew install cocoapods
+brew install fastlane
 brew install fish
 brew install git
 brew install node
@@ -24,6 +26,7 @@ brew install rename
 brew install rsync
 brew install tree
 brew install watchman
+brew install webp
 brew install yarn
 brew install youtube-dl
 
