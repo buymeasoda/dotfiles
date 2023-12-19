@@ -63,7 +63,6 @@
   },
   "workbench.colorTheme": "Dracula",
   "workbench.editor.decorations.colors": false,
-  "workbench.editor.untitled.hint": "hidden",
   "workbench.iconTheme": "file-icons",
   "workbench.startupEditor": "newUntitledFile",
   "[css]": {
@@ -175,5 +174,6 @@
     "markdown": false,
     "scminput": false,
     "yaml": false
-  }
+  },
+  "workbench.editor.empty.hint": "hidden"
 }
