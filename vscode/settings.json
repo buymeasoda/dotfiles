@@ -5,6 +5,7 @@
   "editor.detectIndentation": false,
   "editor.find.globalFindClipboard": true,
   "editor.fontFamily": "SFMono-Regular, Menlo, Monaco, 'Courier New', monospace",
+  "editor.inlayHints.enabled": "offUnlessPressed",
   "editor.inlineSuggest.enabled": true,
   "editor.minimap.enabled": true,
   "editor.minimap.showSlider": "always",
@@ -84,6 +85,10 @@
   },
   "[markdown]": {
     "editor.formatOnSave": true
+  },
+  "[rust]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4
   },
   "[typescript]": {
     "editor.formatOnSave": true,
