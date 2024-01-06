@@ -16,8 +16,15 @@
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
-        "scope": ["comment"],
-        "settings": {"fontStyle": "italic"}
+        "scope": [
+          "entity.name.type",
+          "keyword",
+          "support",
+          "variable.parameter"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
       }
     ]
   },
