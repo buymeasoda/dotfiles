@@ -21,6 +21,7 @@ abbr -ag nd 'nextd'
 # VS Code
 abbr -ag c 'code'
 abbr -ag c. 'code .'
+abbr -ag vd 'code -d'
 
 # Soulver
 abbr -ag sl 'soulver'
