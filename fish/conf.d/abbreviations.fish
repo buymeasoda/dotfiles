@@ -1,6 +1,5 @@
 # Configuration
 abbr -ag dot 'code ~/.dotfiles'
-abbr -ag fbi 'code /usr/local/share/fish'
 
 # Fish
 abbr -ag abs 'abbr --show | grep'
@@ -44,8 +43,6 @@ abbr -ag flush 'dscacheutil -flushcache'
 
 # Web / App Tools
 abbr -ag bs 'browser-sync start --server --watch'
-abbr -ag cra 'npm create vite@latest -- --template react-ts'
-abbr -ag cna 'npx react-native init --template react-native-template-typescript'
 
 # Git
 abbr -ag g 'git'
@@ -89,6 +86,14 @@ abbr -ag ylg 'yarn global list --depth=0'
 # Xcode
 abbr -ag xcl 'xcode-select -p'
 abbr -ag xcs 'sudo xcode-select -s'
+
+# React / React Native
+abbr -ag cra 'npm create vite@latest -- --template react-ts'
+abbr -ag cna 'npx react-native init --template react-native-template-typescript'
+
+# Expo
+abbr -ag nap 'npx create-expo-app --template expo-template-blank-typescript'
+abbr -ag rap 'nvm use; npx expo start'
 
 # Files
 abbr -ag doc 'open ~/Documents'
