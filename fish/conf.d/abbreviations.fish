@@ -7,8 +7,13 @@ abbr -ag abs 'abbr --show | grep'
 # Reload Shell
 abbr -ag rl 'exec $SHELL'
 
-# RefDocs
-abbr -ag ref 'code ~/refdocs'
+# Ref Docs
+abbr -ag ref 'open "obsidian://open?vault=refdocs"'
+abbr -ag refc 'code ~/refdocs'
+
+# Dev Notes
+abbr -ag dev 'open "obsidian://open?vault=devnotes"'
+abbr -ag devc 'code ~/devnotes'
 
 # Homebrew
 abbr -ag brewery 'brew update && brew upgrade && brew cleanup'
