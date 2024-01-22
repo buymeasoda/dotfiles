@@ -97,8 +97,13 @@ abbr -ag cra 'npm create vite@latest -- --template react-ts'
 abbr -ag cna 'npx react-native init --template react-native-template-typescript'
 
 # Expo
-abbr -ag nap 'npx create-expo-app --template expo-template-blank-typescript'
-abbr -ag rap 'nvm use; npx expo start'
+abbr -ag xpn 'npx create-expo-app --template expo-template-blank-typescript'
+abbr -ag xpc 'yarn create expo-app --template expo-template-blank-typescript'
+abbr -ag xpr 'nvm use; npx expo start'
+abbr -ag xpi 'npx expo install'
+abbr -ag xpd 'npx expo-doctor@latest; npx expo install --check'
+abbr -ag xpu 'yarn add expo@latest'
+abbr -ag xpf 'npx expo install --fix'
 
 # Files
 abbr -ag doc 'open ~/Documents'
