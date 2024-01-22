@@ -8,7 +8,7 @@ echo
 brew upgrade --cask
 
 # Casks
-brew install --cask homebrew/cask-versions/zulu11
+brew install --cask homebrew/cask-versions/zulu17
 brew install --cask android-file-transfer
 brew install --cask android-studio
 brew install --cask google-chrome
