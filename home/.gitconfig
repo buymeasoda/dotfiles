@@ -1,38 +1,41 @@
 [core]
-	pager = less -FRSX
-	excludesfile = ~/.gitignore
-	editor = vim
-	quotepath = false
+  pager = less -FRSX
+  excludesfile = ~/.gitignore
+  editor = nano
+  quotepath = false
 [user]
-	name = Ian Hill
-	email = ianhill@buymeasoda.com
+  name = Ian Hill
+  email = ianhill@buymeasoda.com
 [color]
-	ui = auto
+  ui = auto
 [alias]
-	st = status -sb
-	br = branch
-	ba = branch -a
-	co = checkout
-	ci = commit
-	ca = commit -a
-	lg = log --date=local
-	wd = diff --word-diff
-	amend = commit --amend
-	unstage = reset HEAD
-	glog = log --graph --pretty=format:\"%Cred%h%Creset — %s %Cblue%an%Creset %Cgreen(%cr)%Creset\"
-	lol = log --oneline --graph --decorate
+  st = status -sb
+  br = branch
+  ba = branch -a
+  co = checkout
+  ci = commit
+  ca = commit -a
+  lg = log --date=local
+  d = diff
+  wd = diff --word-diff
+  ds = diff --staged
+  wds = diff --word-diff --staged
+  amend = commit --amend
+  unstage = reset HEAD
+  glog = log --graph --pretty=format:\"%Cblue%h%Creset — %s %Cblue%an%Creset %Cgreen(%cr)%Creset\"
+  lol = log --oneline --graph --decorate
 [push]
-	default = simple
+  default = simple
 [filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+  required = true
 [difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+  path =
 [mergetool "sourcetree"]
-	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+  cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+  trustExitCode = true
 [init]
-	defaultBranch = main
+  defaultBranch = main
