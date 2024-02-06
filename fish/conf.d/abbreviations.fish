@@ -64,14 +64,6 @@ abbr -ag gr 'git co .'
 abbr -ag gg 'git pull'
 abbr -ag gp 'git push'
 
-# Mercurial
-abbr -ag hgs 'hg status'
-abbr -ag hgd 'hg diff'
-abbr -ag hgr 'hg revert'
-abbr -ag hga 'hg amend'
-abbr -ag hgar 'hg amend --rebase'
-abbr -ag hgsc 'hg status --change .'
-
 # tmux
 abbr -ag tml 'tmux ls'
 abbr -ag tmk 'tmux kill-session -t'
