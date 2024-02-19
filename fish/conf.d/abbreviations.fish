@@ -63,8 +63,8 @@ abbr -ag gaa 'git add .'
 abbr -ag gam 'git amend'
 abbr -ag gc --set-cursor=@ 'git ci -m "@"'
 abbr -ag gr 'git checkout .'
-abbr -ag gg 'git pull'
-abbr -ag gp 'git push'
+abbr -ag gp 'git pull'
+abbr -ag gps 'git push'
 
 # tmux
 abbr -ag tml 'tmux ls'
