@@ -65,6 +65,8 @@ abbr -ag gp 'git pull'
 abbr -ag gps 'git push'
 abbr -ag gr 'git checkout .'
 abbr -ag gs 'git status --short --branch'
+abbr -ag gst 'git stash'
+abbr -ag gsp 'git stash pop'
 
 # tmux
 abbr -ag tml 'tmux ls'
