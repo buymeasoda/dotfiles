@@ -15,6 +15,9 @@ abbr -ag refc 'code ~/refdocs'
 abbr -ag dev 'open "obsidian://open?vault=devnotes"'
 abbr -ag devc 'code ~/devnotes'
 
+# Learning
+abbr -ag kata 'code ~/projects/learning/kata'
+
 # Homebrew
 abbr -ag brewery 'brew update && brew upgrade && brew cleanup'
 
@@ -63,7 +66,8 @@ abbr -ag glg 'git log --graph'
 abbr -ag glo 'git log --oneline'
 abbr -ag gpl 'git pull'
 abbr -ag gps 'git push'
-abbr -ag gr 'git checkout .'
+abbr -ag gr 'git checkout'
+abbr -ag gra 'git checkout .'
 abbr -ag gs 'git status --short --branch'
 abbr -ag gsh 'git show'
 abbr -ag gst 'git stash'
