@@ -16,7 +16,7 @@ abbr -ag dev 'open "obsidian://open?vault=devnotes"'
 abbr -ag devc 'code ~/devnotes'
 
 # Learning
-abbr -ag kata 'code ~/projects/learning/kata'
+abbr -ag ck 'cd ~/projects/learning/kata; code ~/projects/learning/kata;'
 
 # Homebrew
 abbr -ag brewery 'brew update && brew upgrade && brew cleanup'
@@ -69,11 +69,13 @@ abbr -ag gl 'git log'
 abbr -ag glp 'git log -p'
 abbr -ag glg 'git log --graph'
 abbr -ag glo 'git log --oneline'
+abbr -ag gm 'git mv'
 abbr -ag gpl 'git pull'
 abbr -ag gps 'git push'
 abbr -ag gr 'git checkout'
 abbr -ag gra 'git checkout .'
 abbr -ag grh 'git reset Head~'
+abbr -ag grm 'git rm'
 abbr -ag gs 'git status --short --branch'
 abbr -ag gsh 'git show'
 abbr -ag gss 'git show --stat'
