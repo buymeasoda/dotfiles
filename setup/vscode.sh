@@ -5,19 +5,20 @@ echo "Configuring VS Code"
 echo
 
 # Extensions
-code --install-extension alefragnani.Bookmarks
+code --install-extension alefragnani.bookmarks
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension dracula-theme.theme-dracula
 code --install-extension esbenp.prettier-vscode
 code --install-extension expo.vscode-expo-tools
 code --install-extension file-icons.file-icons
 code --install-extension flowtype.flow-for-vscode
-code --install-extension GitHub.copilot
-code --install-extension GitHub.copilot-chat
-code --install-extension GraphQL.vscode-graphql-syntax
+code --install-extension github.copilot
+code --install-extension github.copilot-chat
+code --install-extension graphql.vscode-graphql-syntax
+code --install-extension mathiasfrohlich.kotlin
 code --install-extension meta.relay
 code --install-extension mgmcdermott.vscode-language-babel
-code --install-extension Orta.vscode-jest
+code --install-extension orta.vscode-jest
 code --install-extension rust-lang.rust-analyzer
 code --install-extension skyapps.fish-vscode
 code --install-extension sourcegraph.sourcegraph
