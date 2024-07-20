@@ -77,7 +77,7 @@
     "terminalCursor.background": "#ffffff",
     "terminalCursor.foreground": "#a6a6a6"
   },
-  "workbench.colorTheme": "Dracula",
+  "workbench.colorTheme": "Dracula Theme",
   "workbench.editor.decorations.colors": false,
   "workbench.editor.empty.hint": "hidden",
   "workbench.iconTheme": "file-icons",
