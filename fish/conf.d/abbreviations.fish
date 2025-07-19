@@ -121,5 +121,5 @@ abbr -ag doc 'open ~/Documents'
 abbr -ag lap 'open ~/Library/Application\ Support'
 
 # Download youtube video (Usage: yt 'http://www.youtube.com/watch?v=abc123')
-abbr -ag yt 'yt-dlp -f best[ext=mp4]'
-abbr -ag yta 'yt-dlp -f bestaudio[ext=m4a] -x'
+abbr -ag yt 'yt-dlp -t mp4'
+abbr -ag yta 'yt-dlp -t mp3'
