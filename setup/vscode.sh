@@ -21,7 +21,6 @@ code --install-extension mgmcdermott.vscode-language-babel
 code --install-extension orta.vscode-jest
 code --install-extension rust-lang.rust-analyzer
 code --install-extension skyapps.fish-vscode
-code --install-extension sourcegraph.sourcegraph
 code --install-extension streetsidesoftware.code-spell-checker
 
 # Settings
