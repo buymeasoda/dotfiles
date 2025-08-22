@@ -6,8 +6,9 @@ echo
 
 # Extensions
 code --install-extension alefragnani.bookmarks
+code --install-extension catppuccin.catppuccin-vsc
+code --install-extension catppuccin.catppuccin-vsc-icons
 code --install-extension dbaeumer.vscode-eslint
-code --install-extension dracula-theme.theme-dracula
 code --install-extension esbenp.prettier-vscode
 code --install-extension expo.vscode-expo-tools
 code --install-extension file-icons.file-icons
