@@ -11,6 +11,7 @@
   "editor.renderWhitespace": "selection",
   "editor.scrollBeyondLastLine": false,
   "editor.selectionHighlight": false,
+  "editor.semanticHighlighting.enabled": true,
   "editor.tabSize": 2,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -51,35 +52,15 @@
   },
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.copyOnSelection": true,
-  "terminal.integrated.fontFamily": "MesloLGM-RegularForPowerline",
+  "terminal.integrated.fontFamily": "MesloLGMNFM-Regular",
+  "terminal.integrated.minimumContrastRatio": 1,
+  "window.titleBarStyle": "custom",
   "window.zoomLevel": 0,
-  "workbench.colorCustomizations": {
-    "terminal.ansiBlack": "#323334",
-    "terminal.ansiRed": "#da6a6a",
-    "terminal.ansiGreen": "#63a14c",
-    "terminal.ansiYellow": "#cfb30d",
-    "terminal.ansiBlue": "#5999b9",
-    "terminal.ansiMagenta": "#b578cc",
-    "terminal.ansiCyan": "#258595",
-    "terminal.ansiWhite": "#cdcdcd",
-    "terminal.ansiBrightBlack": "#8c8c8c",
-    "terminal.ansiBrightRed": "#df968e",
-    "terminal.ansiBrightGreen": "#cdef45",
-    "terminal.ansiBrightYellow": "#fee45e",
-    "terminal.ansiBrightBlue": "#9cd8f3",
-    "terminal.ansiBrightMagenta": "#faafff",
-    "terminal.ansiBrightCyan": "#79ded8",
-    "terminal.ansiBrightWhite": "#f7f7f7",
-    "terminal.background": "#17181a",
-    "terminal.foreground": "#979b9f",
-    "terminal.selectionBackground": "#9cd8f355",
-    "terminalCursor.background": "#ffffff",
-    "terminalCursor.foreground": "#a6a6a6"
-  },
-  "workbench.colorTheme": "Dracula Theme",
+  "workbench.colorTheme": "Catppuccin Mocha",
   "workbench.editor.decorations.colors": false,
   "workbench.editor.empty.hint": "hidden",
-  "workbench.iconTheme": "file-icons",
+  "workbench.iconTheme": "catppuccin-mocha",
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
   "workbench.startupEditor": "newUntitledFile",
   "[css]": {
     "editor.formatOnSave": true
@@ -189,6 +170,5 @@
     "workflows",
     "worklet",
     "worklets"
-  ],
-  "workbench.secondarySideBar.defaultVisibility": "hidden"
+  ]
 }
