@@ -33,7 +33,6 @@
   "explorer.decorations.colors": false,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
-  "github.copilot.advanced": {},
   "github.copilot.enable": {
     "*": true,
     "plaintext": false,
@@ -190,5 +189,6 @@
     "workflows",
     "worklet",
     "worklets"
-  ]
+  ],
+  "workbench.secondarySideBar.defaultVisibility": "hidden"
 }
