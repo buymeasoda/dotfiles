@@ -19,3 +19,6 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # OrbStack
 source ~/.orbstack/shell/init2.fish 2>/dev/null || :
+
+# Starship
+starship init fish | source

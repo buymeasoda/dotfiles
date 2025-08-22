@@ -25,4 +25,4 @@ brew install --cask vlc
 brew install --cask xscope
 
 # Fonts
-brew install --cask font-meslo-for-powerline
+brew install --cask font-meslo-lg-nerd-font

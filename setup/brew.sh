@@ -26,6 +26,7 @@ brew install pstree
 brew install python
 brew install rename
 brew install rsync
+brew install starship
 brew install tree
 brew install watchman
 brew install webp
