@@ -17,3 +17,4 @@ chsh -s $(brew --prefix)/bin/fish
 # Config
 mkdir ~/.config
 ln -sf ~/.dotfiles/fish ~/.config/fish
+ln -sf ~/.dotfiles/terminal/starship.toml ~/.config/starship.toml
