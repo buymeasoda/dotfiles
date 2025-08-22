@@ -12,7 +12,7 @@ defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/.dotfile
 defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
 
 # Terminal
-open ~/.dotfiles/terminal/Soda.terminal
+open ~/.dotfiles/terminal/catppuccin-mocha.terminal
 sleep 1
-defaults write com.apple.Terminal "Default Window Settings" -string "Soda"
-defaults write com.apple.Terminal "Startup Window Settings" -string "Soda"
+defaults write com.apple.Terminal "Default Window Settings" -string "catppuccin-mocha"
+defaults write com.apple.Terminal "Startup Window Settings" -string "catppuccin-mocha"
