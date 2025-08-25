@@ -61,13 +61,8 @@ min_time_to_notify = 45000
 disabled = false
 
 [character]
-disabled = false
-success_symbol = '[❯](bold fg:overlay0)'
-error_symbol = '[❯](bold fg:red)'
-vimcmd_symbol = '[❮](bold fg:green)'
-vimcmd_replace_one_symbol = '[❮](bold fg:lavender)'
-vimcmd_replace_symbol = '[❮](bold fg:lavender)'
-vimcmd_visual_symbol = '[❮](bold fg:yellow)'
+success_symbol = '[❯](fg:overlay0)'
+error_symbol = '[❯](fg:red)'
 
 [palettes.catppuccin_mocha]
 rosewater = '#f5e0dc'
