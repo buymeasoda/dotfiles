@@ -19,7 +19,7 @@ palette = 'catppuccin_mocha'
 [username]
 show_always = true
 style_user = 'bg:surface0 fg:mauve'
-style_root = 'bg:surface0 fg:mauve'
+style_root = 'bg:surface0 fg:red'
 format = '[ $user ]($style)'
 
 [directory]
