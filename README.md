@@ -6,7 +6,7 @@ Buymeasoda dotfiles, terminal configuration and system setup.
 
 - Homebrew formula, app casks and global node packages
 - Mac apps and system preferences configuration
-- Fish prompt, dotfiles, powerline theme and iTerm configuration
+- Fish dotfiles, Starship prompt and iTerm configuration
 - VS Code editor settings and extensions installation
 
 ## Installation
