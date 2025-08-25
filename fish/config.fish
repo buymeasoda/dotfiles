@@ -11,9 +11,6 @@ set -x REACT_EDITOR code
 # Homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-# OrbStack
-source ~/.orbstack/shell/init2.fish 2>/dev/null || :
-
 # Starship
 if test $TERM_PROGRAM = "Apple_Terminal"
   set -gx STARSHIP_CONFIG ~/.dotfiles/terminal/starship-terminal.toml
