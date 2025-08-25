@@ -81,6 +81,7 @@ abbr -ag gs 'git status --short --branch'
 abbr -ag gsh 'git show'
 abbr -ag gss 'git show --stat'
 abbr -ag gst 'git stash'
+abbr -ag gsl 'git stash list'
 abbr -ag gsp 'git stash pop'
 
 # tmux
