@@ -1,3 +1,6 @@
+# Fish
+fish_config theme choose "Catppuccin Mocha"
+
 # Man Pages
 set -l end (printf "\e[0m")
 set -x LESS_TERMCAP_mb (set_color red)

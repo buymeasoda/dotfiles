@@ -14,11 +14,8 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # OrbStack
 source ~/.orbstack/shell/init2.fish 2>/dev/null || :
 
-# Theme
-fish_config theme choose "Catppuccin Mocha"
+# Starship
 if test $TERM_PROGRAM = "Apple_Terminal"
   set -gx STARSHIP_CONFIG ~/.dotfiles/terminal/starship-terminal.toml
 end
-
-# Starship
 starship init fish | source
