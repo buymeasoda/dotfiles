@@ -37,7 +37,7 @@ format = '([ ](bg:surface0)[](bg:peach fg:surface0)[ $all_status$ahead_behind
 ahead = ' '
 behind = ' '
 conflicted = '= '
-deleted = '✘ '
+deleted = '× '
 diverged = '󰘖 '
 modified = '± '
 renamed = '» '
