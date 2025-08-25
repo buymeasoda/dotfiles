@@ -15,12 +15,14 @@ set encoding=utf-8
 " Colour
 "
 
+" Enable 24-bit RGB colour in terminal
+if $TERM_PROGRAM != "Apple_Terminal"
+  set termguicolors
+endif
 " Enable syntax highlighting
 syntax on
-" 256 colors in terminal
-set t_Co=256
 " Editor colour scheme
-colorscheme smyck
+colorscheme catppuccin_mocha
 
 "
 " Editor
