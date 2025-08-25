@@ -1,6 +1,6 @@
 # Buymeasoda Dotfiles
 
-Buymeasoda dotfiles, terminal configuration and system setup.
+[Buymeasoda](http://www.buymeasoda.com/) dotfiles, terminal configuration and system setup.
 
 ## Overview
 
