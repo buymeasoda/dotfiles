@@ -8,12 +8,12 @@ abbr -ag abs 'abbr --show | grep'
 abbr -ag rl 'exec $SHELL'
 
 # Ref Docs
-abbr -ag ref 'open "obsidian://open?vault=refdocs"'
-abbr -ag refc 'code ~/refdocs'
+abbr -ag ref 'code ~/refdocs'
+abbr -ag refo 'open "obsidian://open?vault=refdocs"'
 
 # Dev Notes
-abbr -ag dev 'open "obsidian://open?vault=devnotes"'
-abbr -ag devc 'code ~/devnotes'
+abbr -ag dev 'code ~/devnotes'
+abbr -ag devc 'open "obsidian://open?vault=devnotes"'
 
 # Learning
 abbr -ag ck 'cd ~/projects/learning/kata; code ~/projects/learning/kata;'
