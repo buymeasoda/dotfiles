@@ -15,6 +15,7 @@ brew upgrade
 
 # Formula
 brew install cocoapods
+brew install docker-completion
 brew install fastlane
 brew install ffmpeg
 brew install fish
