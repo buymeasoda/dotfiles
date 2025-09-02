@@ -42,7 +42,6 @@
     "yaml": false
   },
   "javascript.validate.enable": false,
-  "jest.autoRun": "off",
   "json.schemas": [],
   "rust-analyzer.check.command": "clippy",
   "search.exclude": {
