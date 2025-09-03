@@ -64,6 +64,11 @@
   "[css]": {
     "editor.formatOnSave": true
   },
+  "[dockercompose]": {
+    "editor.quickSuggestions": {
+      "strings": "on"
+    }
+  },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
