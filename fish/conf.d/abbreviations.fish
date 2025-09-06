@@ -49,6 +49,9 @@ abbr -ag pt 'printf "%s\n" $PATH'
 # Flush DNS cache
 abbr -ag flush 'dscacheutil -flushcache'
 
+# List port listeners
+abbr -ag lop 'lsof -i -P | grep LISTEN'
+
 # Web / App Tools
 abbr -ag bs 'browser-sync start --server --watch'
 
