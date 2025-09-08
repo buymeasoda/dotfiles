@@ -44,6 +44,7 @@
   "javascript.validate.enable": false,
   "json.schemas": [],
   "rust-analyzer.check.command": "clippy",
+  "scm.defaultViewMode": "tree",
   "search.exclude": {
     "**/__generated-mocks": true,
     "**/build": true,
