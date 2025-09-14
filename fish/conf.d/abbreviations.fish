@@ -87,6 +87,10 @@ abbr -ag gst 'git stash'
 abbr -ag gsl 'git stash list'
 abbr -ag gsp 'git stash pop'
 
+# Docker
+abbr -ag dcu 'docker compose up'
+abbr -ag dcr 'docker compose up --force-recreate --build'
+
 # tmux
 abbr -ag tml 'tmux ls'
 abbr -ag tmk 'tmux kill-session -t'
