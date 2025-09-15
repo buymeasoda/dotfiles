@@ -6,12 +6,12 @@ echo
 
 # Extensions
 code --install-extension alefragnani.bookmarks
+code --install-extension bmewburn.vscode-intelephense-client
 code --install-extension catppuccin.catppuccin-vsc
 code --install-extension catppuccin.catppuccin-vsc-icons
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension esbenp.prettier-vscode
 code --install-extension expo.vscode-expo-tools
-code --install-extension file-icons.file-icons
 code --install-extension flowtype.flow-for-vscode
 code --install-extension github.copilot
 code --install-extension github.copilot-chat

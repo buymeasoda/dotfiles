@@ -21,7 +21,7 @@ brew install fish
 brew install git
 brew install node
 brew install nvm
-brew install orbstack
+brew install php
 brew install pstree
 brew install python
 brew install rename
