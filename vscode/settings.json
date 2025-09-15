@@ -47,11 +47,6 @@
   "scm.defaultViewMode": "tree",
   "scm.providerCountBadge": "auto",
   "scm.repositories.sortOrder": "name",
-  "search.exclude": {
-    "**/__generated-mocks": true,
-    "**/build": true,
-    "**/bundles-report": true
-  },
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.fontFamily": "MesloLGMNFM-Regular",
