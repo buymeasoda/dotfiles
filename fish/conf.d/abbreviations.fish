@@ -89,7 +89,9 @@ abbr -ag gsp 'git stash pop'
 
 # Docker
 abbr -ag dcu 'docker compose up'
-abbr -ag dcr 'docker compose build --no-cache && docker compose up --force-recreate --build'
+abbr -ag dcb 'docker compose build --no-cache'
+abbr -ag dcr 'docker compose up --force-recreate --build'
+abbr -ag dcf 'docker compose build --no-cache && docker compose up --force-recreate --build'
 abbr -ag dx 'docker exec -it'
 
 # tmux
