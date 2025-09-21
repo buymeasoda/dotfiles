@@ -3303,6 +3303,8 @@
 	<integer>0</integer>
 	<key>StretchTabsToFillBar</key>
 	<false/>
+	<key>SwapFindNextPrevious</key>
+	<false/>
 	<key>SwitchTabModifier</key>
 	<integer>4</integer>
 	<key>SwitchWindowModifier</key>
