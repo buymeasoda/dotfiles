@@ -54,8 +54,6 @@ format = '  $time '
 show_milliseconds = true
 format = '[ in $duration](fg:overlay1)'
 disabled = false
-show_notifications = true
-min_time_to_notify = 45000
 
 [line_break]
 disabled = false
