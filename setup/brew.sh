@@ -27,6 +27,7 @@ brew install python
 brew install rename
 brew install rsync
 brew install starship
+brew install tmux
 brew install tree
 brew install watchman
 brew install webp
