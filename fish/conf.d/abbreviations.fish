@@ -86,6 +86,12 @@ abbr -ag gss 'git show --stat'
 abbr -ag gst 'git stash'
 abbr -ag gsl 'git stash list'
 abbr -ag gsp 'git stash pop'
+abbr -ag gw 'git worktree'
+abbr -ag gwa 'git worktree add'
+abbr -ag gwd 'git worktree add --detach'
+abbr -ag gwl 'git worktree list'
+abbr -ag gwm 'git worktree move'
+abbr -ag gwr 'git worktree remove'
 
 # Docker
 abbr -ag dcu 'docker compose up'
