@@ -2,6 +2,9 @@
 snapshot/*
 !snapshot/.dir
 
+# Fish
+fish/fish_variables
+
 # Vim
 home/.vim/.netrwhist
 home/.vim/backups/*
