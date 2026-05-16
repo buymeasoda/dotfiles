@@ -12,7 +12,7 @@ set -x REACT_EDITOR code
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Starship
-if test $TERM_PROGRAM = "Apple_Terminal"
+if test "$TERM_PROGRAM" = "Apple_Terminal"
   set -gx STARSHIP_CONFIG ~/.dotfiles/terminal/starship-terminal.toml
 end
 starship init fish | source
