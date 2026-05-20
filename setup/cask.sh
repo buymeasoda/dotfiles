@@ -8,7 +8,6 @@ echo
 brew upgrade --cask
 
 # Casks
-brew install --cask zulu@17
 brew install --cask android-file-transfer
 brew install --cask android-studio
 brew install --cask google-chrome
@@ -24,6 +23,7 @@ brew install --cask transmission
 brew install --cask visual-studio-code
 brew install --cask vlc
 brew install --cask xscope
+brew install --cask zulu@17
 
 # Fonts
 brew install --cask font-meslo-lg-nerd-font
