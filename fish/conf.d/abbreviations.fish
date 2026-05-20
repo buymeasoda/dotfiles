@@ -9,14 +9,9 @@ abbr -ag rl 'exec $SHELL'
 
 # Ref Docs
 abbr -ag ref 'code ~/refdocs'
-abbr -ag refo 'open "obsidian://open?vault=refdocs"'
 
 # Dev Notes
 abbr -ag dev 'code ~/devnotes'
-abbr -ag devc 'open "obsidian://open?vault=devnotes"'
-
-# Learning
-abbr -ag ck 'cd ~/projects/learning/kata; code ~/projects/learning/kata;'
 
 # Homebrew
 abbr -ag brewery 'brew update && brew upgrade && brew cleanup'
@@ -51,9 +46,6 @@ abbr -ag flush 'dscacheutil -flushcache'
 
 # List port listeners
 abbr -ag lop 'lsof -i -P | grep LISTEN'
-
-# Web / App Tools
-abbr -ag bs 'browser-sync start --server --watch'
 
 # Git
 abbr -ag g 'git'
