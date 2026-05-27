@@ -18,9 +18,9 @@ brew install cocoapods
 brew install fastlane
 brew install ffmpeg
 brew install fish
+brew install fnm
 brew install git
 brew install node
-brew install nvm
 brew install php
 brew install pstree
 brew install python
