@@ -99,6 +99,11 @@ abbr -ag tml 'tmux ls'
 abbr -ag tmk 'tmux kill-session -t'
 abbr -ag tmks 'tmux kill-server'
 
+# Fast Node Manager
+abbr -ag fnl 'fnm list'
+abbr -ag fnu 'fnm use'
+abbr -ag fnd 'fnm use default'
+
 # npm
 abbr -ag nll 'npm list --depth=0'
 abbr -ag nlg 'npm list --global --depth=0'
@@ -121,7 +126,7 @@ abbr -ag cna 'npx react-native init --template react-native-template-typescript'
 # Expo
 abbr -ag xpn 'npx create-expo-app --template expo-template-blank-typescript'
 abbr -ag xpc 'yarn create expo-app --template expo-template-blank-typescript'
-abbr -ag xpr 'nvm use; npx expo start'
+abbr -ag xpr 'fnm use; npx expo start'
 abbr -ag xpi 'npx expo install'
 abbr -ag xpd 'npx expo-doctor@latest; npx expo install --check'
 abbr -ag xpu 'yarn add expo@latest'

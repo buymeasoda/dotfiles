@@ -12,7 +12,7 @@ set -x REACT_EDITOR code
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Fast Node Manager
-fnm env --use-on-cd --version-file-strategy=recursive --shell fish | source
+fnm env --version-file-strategy=recursive --shell fish | source
 
 # Starship
 if test "$TERM_PROGRAM" = "Apple_Terminal"
