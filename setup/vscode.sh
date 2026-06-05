@@ -12,14 +12,12 @@ code --install-extension catppuccin.catppuccin-vsc-icons
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension esbenp.prettier-vscode
 code --install-extension expo.vscode-expo-tools
-code --install-extension flowtype.flow-for-vscode
-code --install-extension github.copilot
-code --install-extension github.copilot-chat
 code --install-extension graphql.vscode-graphql-syntax
 code --install-extension mathiasfrohlich.kotlin
 code --install-extension meta.relay
 code --install-extension mgmcdermott.vscode-language-babel
 code --install-extension orta.vscode-jest
+code --install-extension redhat.vscode-yaml
 code --install-extension rust-lang.rust-analyzer
 code --install-extension skyapps.fish-vscode
 code --install-extension streetsidesoftware.code-spell-checker
