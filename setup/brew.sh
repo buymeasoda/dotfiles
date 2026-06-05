@@ -20,6 +20,7 @@ brew install ffmpeg
 brew install fish
 brew install fnm
 brew install git
+brew install mpv
 brew install node
 brew install php
 brew install pstree
