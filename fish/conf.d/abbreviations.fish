@@ -85,6 +85,7 @@ abbr -ag gwa 'git worktree add'
 abbr -ag gwd 'git worktree add --detach'
 abbr -ag gwl 'git worktree list'
 abbr -ag gwm 'git worktree move'
+abbr -ag gwp 'git worktree prune'
 abbr -ag gwr 'git worktree remove'
 
 # Docker
